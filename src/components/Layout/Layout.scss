@@ -1,0 +1,55 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.Layout {
+  max-width: $max-width;
+  height: 100vh;
+  font-family: $font-text;
+  transition: background-color 0.3s, color 0.3s;
+
+  &.dark {
+    background: $dark-bg-color;
+    color: $dark-text-color;
+
+    .Header {
+    }
+  }
+
+  &.light {
+    background: $light-bg-color;
+    color: $light-text-color;
+
+    .Header {
+    }
+  }
+
+  // Mobile
+  @include respond-to("mobile") {
+    background-color: red; // Example color for mobile
+  }
+
+  // Tablet
+  @include respond-to("tablet") {
+    background-color: blue; // Example color for tablet
+  }
+
+  // Desktop
+  @include respond-to("desktop") {
+    background-color: $dark-bg-color; // Set back to dark theme color for desktop
+  }
+}
+
+.Layout {
+  // Mobile
+  background-color: red;
+
+  // Tablet
+  @include respond-to("tablet") {
+    background-color: blue;
+  }
+
+  // Desktop
+  @include respond-to("desktop") {
+    background-color: $dark-bg-color;
+  }
+}

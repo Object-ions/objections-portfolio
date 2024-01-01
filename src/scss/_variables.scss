@@ -7,15 +7,19 @@
   font-style: normal;
 }
 
-$dark-bg: #1c1c1c;
-$dark-border: #424242;
-$light-bg: #e0e0e0;
-$white: #fff;
-$turquoise: #41e0d0;
-$black: #000;
-$blue: #2c4bf5;
-$orange: #ff4400;
+// Dark theme
+$dark-bg-color: #1c1c1c;
+$dark-text-color: #fff;
+$dark-special-color: #41e0d0;
+
+// Light theme
+$light-bg-color: #e0e0e0;
+$light-text-color: #000;
+$light-special-color: #2c4bf5;
+
 $error: #f2994a;
+$special-orange: #ff4400;
+$dark-border: #424242;
 
 $max-width: 1200px;
 

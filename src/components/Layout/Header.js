@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
 
-const Header = () => {
+const Header = ({ onToggleTheme }) => {
   return (
     <div className="Header">
       <div>
@@ -12,8 +12,16 @@ const Header = () => {
         <h5>{">"} Designer</h5>
       </div>
       <div className="mode-control">
-        <div className="mode-icon mode-icon-dark" id="dark-mode"></div>
-        <div className="mode-icon mode-icon-light" id="light-mode"></div>
+        <div
+          className="mode-icon mode-icon-dark"
+          id="dark-mode"
+          onClick={() => onToggleTheme("dark")}
+        ></div>
+        <div
+          className="mode-icon mode-icon-light"
+          id="light-mode"
+          onClick={() => onToggleTheme("light")}
+        ></div>
       </div>
     </div>
   );

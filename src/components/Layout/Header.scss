@@ -2,8 +2,7 @@
 
 .Header {
   position: relative;
-  font-family: $font-text;
-  margin: 2rem;
+  margin: 0 2rem;
 
   h1 {
     font-weight: 700;
@@ -39,15 +38,15 @@
         margin-right: 0.5rem;
 
         &:hover {
-          background: lighten($dark-bg, 10%);
+          background: lighten($dark-bg-color, 10%);
         }
       }
 
       &-light {
-        background: $white;
+        background: #fff;
 
         &:hover {
-          background: darken($white, 10%);
+          background: darken(#fff, 10%);
         }
       }
     }
