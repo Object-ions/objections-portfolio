@@ -1,4 +1,5 @@
 @import "../../scss/variables";
+@import "../../scss/mixins";
 
 * {
   box-sizing: border-box;
@@ -65,4 +66,14 @@ ul {
       text-stroke: 1px $special-orange;
     }
   }
+
+  // @include respond-to("mobile") {
+  //   background: red !important;
+  // }
+  // @include respond-to("tablet") {
+  //   background: blue !important;
+  // }
+  // @include respond-to("desktop") {
+  //   background: green !important;
+  // }
 }
