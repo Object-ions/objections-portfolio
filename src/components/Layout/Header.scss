@@ -1,0 +1,55 @@
+@import "/src/scss/variables";
+
+.Header {
+  position: relative;
+  font-family: $font-text;
+  margin: 2rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    padding-left: 3rem;
+  }
+
+  small {
+    font-family: $font-symbols;
+    font-size: 2rem;
+    line-height: 1.2rem;
+    position: absolute;
+    top: 2.2rem;
+    left: 1rem;
+  }
+
+  h5 {
+    font-family: $font-symbols;
+  }
+
+  .mode-control {
+    margin-top: 1rem;
+    display: flex;
+
+    .mode-icon {
+      height: 25px;
+      width: 25px;
+      cursor: pointer;
+      border: 1px solid $dark-border;
+
+      &-dark {
+        background: #000;
+        margin-right: 0.5rem;
+
+        &:hover {
+          background: lighten($dark-bg, 10%);
+        }
+      }
+
+      &-light {
+        background: $white;
+
+        &:hover {
+          background: darken($white, 10%);
+        }
+      }
+    }
+  }
+}
