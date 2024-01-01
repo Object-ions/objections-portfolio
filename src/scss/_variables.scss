@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@100;200;300&display=swap");
+
+@font-face {
+  font-family: "pickle";
+  src: url("../fonts/Pickle.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 $dark-bg: #1c1c1c;
 $dark-border: #424242;
 $light-bg: #e0e0e0;
@@ -9,3 +18,7 @@ $orange: #ff4400;
 $error: #f2994a;
 
 $max-width: 1200px;
+
+$font-text: "Lato", sans-serif;
+$font-symbols: "Roboto Mono", monospace;
+$font-special: "pickle";
