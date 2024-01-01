@@ -1,35 +1,42 @@
 import React from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const Navbar = () => {
+  const navItems = [
+    { name: "Home", path: "/", isExternal: false },
+    { name: "About", path: "/about", isExternal: false },
+    { name: "Projects", path: "/projects", isExternal: false },
+    { name: "Design", path: "/design", isExternal: false },
+    {
+      name: "GitHub",
+      path: "https://github.com/Object-ions",
+      isExternal: true,
+    },
+    { name: "Resume", path: "/resume", isExternal: false },
+  ];
+
   return (
     <div className="Navbar">
       <ul className="site-nav">
-        <li>
-          <Link to={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link to={"/about"}>About</Link>
-        </li>
-        <li>
-          <Link to={"/projects"}>Projects</Link>
-        </li>
-      </ul>
-      <ul className="boxed-portfolio">
-        <li>
-          <a href="https://github.com/Object-ions" target="blank">
-            Code
-          </a>
-        </li>
-        <li>
-          <Link to={"/design"}>Design</Link>
-        </li>
-      </ul>
-      <ul className="resume">
-        <li>
-          <Link to={"/resume"}>Resume</Link>{" "}
-        </li>
+        {navItems.map((item, index) => {
+          const delay = `${index * 0.1}s`;
+          const animationClasses = "animate__animated animate__fadeInLeft";
+          const style = { animationDelay: delay };
+
+          return (
+            <li key={item.name} className={animationClasses} style={style}>
+              {item.isExternal ? (
+                <a href={item.path} target="_blank" rel="noopener noreferrer">
+                  {item.name}
+                </a>
+              ) : (
+                <Link to={item.path}>{item.name}</Link>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

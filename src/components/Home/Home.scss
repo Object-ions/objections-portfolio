@@ -1,6 +1,10 @@
 @import "/src/scss/variables";
 
 .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   h2 {
     font-size: 3rem;
     font-weight: 400;

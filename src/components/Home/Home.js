@@ -44,7 +44,7 @@ const Home = () => {
           text={text}
           id={`header-${index + 1}`}
           special={index === 3 || index === 4 || index === 8}
-          delay={0.3 * index}
+          delay={0.5 + 0.3 * index}
         />
       ))}
     </div>
