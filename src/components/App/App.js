@@ -11,7 +11,7 @@ import Design from "../Design/Design";
 import Resume from "../Resume/Resume";
 
 const App = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
@@ -19,6 +19,7 @@ const App = () => {
 
   // Update the body background color when the theme changes
   useEffect(() => {
+    localStorage.setItem("theme", theme);
     document.body.style.background = theme === "dark" ? "#1c1c1c" : "#e0e0e0";
   }, [theme]);
 
