@@ -23,19 +23,8 @@
     }
   }
 
-  // Mobile
-  @include respond-to("mobile") {
-    background-color: red; // Example color for mobile
-  }
-
-  // Tablet
-  @include respond-to("tablet") {
-    background-color: blue; // Example color for tablet
-  }
-
-  // Desktop
-  @include respond-to("desktop") {
-    background-color: $dark-bg-color; // Set back to dark theme color for desktop
+  &.page {
+    background: red;
   }
 }
 
