@@ -1,10 +1,11 @@
 import React from "react";
+import "./Navbar.scss";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <ul>
+      <ul className="site-nav">
         <li>
           <Link to={"/"}>Home</Link>
         </li>
@@ -12,10 +13,10 @@ const Navbar = () => {
           <Link to={"/about"}>About</Link>
         </li>
         <li>
-          <Link to={"/projects"}>projects</Link>
+          <Link to={"/projects"}>Projects</Link>
         </li>
       </ul>
-      <ul>
+      <ul className="boxed-portfolio">
         <li>
           <a href="https://github.com/Object-ions" target="blank">
             Code
@@ -25,12 +26,9 @@ const Navbar = () => {
           <Link to={"/design"}>Design</Link>
         </li>
       </ul>
-      <ul>
+      <ul className="resume">
         <li>
-          <Link to={"/resume"}>Online Resume</Link>{" "}
-        </li>
-        <li>
-          <a href="#">Download Resume</a>{" "}
+          <Link to={"/resume"}>Resume</Link>{" "}
         </li>
       </ul>
     </div>

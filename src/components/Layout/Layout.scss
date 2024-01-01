@@ -2,6 +2,9 @@
 @import "../../scss/variables";
 
 .Layout {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   max-width: $max-width;
   height: 100vh;
   font-family: $font-text;
@@ -11,34 +14,58 @@
     background: $dark-bg-color;
     color: $dark-text-color;
 
-    .Header {
+    a {
+      color: $dark-text-color;
+
+      &:hover {
+        color: #000;
+        background: $dark-special-color;
+      }
+    }
+
+    #header-4,
+    #header-5 {
+      color: transparent;
+      -webkit-text-stroke: 1px #fff;
+      text-stroke: 1px #fff;
     }
   }
 
   &.light {
     background: $light-bg-color;
-    color: $light-text-color;
+    color: $light-special-color;
 
-    .Header {
+    a {
+      color: $special-orange;
+
+      &:hover {
+        color: #fff;
+        background: $special-orange;
+      }
+    }
+
+    #header-4,
+    #header-5 {
+      color: transparent;
+      -webkit-text-stroke: 1px $special-orange;
+      text-stroke: 1px $special-orange;
     }
   }
 
-  &.page {
-    background: red;
-  }
-}
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    flex: 1;
 
-.Layout {
-  // Mobile
-  background-color: red;
+    .Navbar {
+      width: 200px;
+      flex-shrink: 0;
+    }
 
-  // Tablet
-  @include respond-to("tablet") {
-    background-color: blue;
-  }
-
-  // Desktop
-  @include respond-to("desktop") {
-    background-color: $dark-bg-color;
+    .page {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
   }
 }

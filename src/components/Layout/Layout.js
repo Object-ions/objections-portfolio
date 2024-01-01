@@ -8,15 +8,17 @@ const Layout = () => {
   const [theme, setTheme] = useState("dark");
 
   const toggleTheme = (newTheme) => {
-    setTheme(newTheme); // Fixed to use newTheme instead of "newTheme"
+    setTheme(newTheme);
   };
 
   return (
     <div className={`Layout ${theme}`}>
       <Header onToggleTheme={toggleTheme} />
-      <Navbar />
-      <div className="page">
-        <Outlet />
+      <div className="content">
+        <Navbar />
+        <div className="page">
+          <Outlet />
+        </div>
       </div>
     </div>
   );
