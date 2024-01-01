@@ -2,12 +2,13 @@
 @import "../../scss/variables";
 
 .Layout {
-  margin: 0 auto;
   display: flex;
+  margin: 2rem auto;
   flex-direction: column;
   max-width: $max-width;
-  height: 100vh;
+  height: calc(100vh - 4rem);
   font-family: $font-text;
+  border: 1px solid #fff;
 
   .content {
     display: grid;

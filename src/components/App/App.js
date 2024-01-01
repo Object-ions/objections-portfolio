@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.scss";
+import "../../scss/_variables.scss";
 import Layout from "../Layout/Layout";
 import Home from "../Home/Home";
 import About from "../About/About";
@@ -15,6 +16,11 @@ const App = () => {
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
   };
+
+  // Update the body background color when the theme changes
+  useEffect(() => {
+    document.body.style.background = theme === "dark" ? "#1c1c1c" : "#e0e0e0";
+  }, [theme]);
 
   return (
     <Router>

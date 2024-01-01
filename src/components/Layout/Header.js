@@ -17,11 +17,13 @@ const Header = ({ onToggleTheme }) => {
           id="dark-mode"
           onClick={() => onToggleTheme("dark")}
         ></div>
+        <p>Dark</p>
         <div
           className="mode-icon mode-icon-light"
           id="light-mode"
           onClick={() => onToggleTheme("light")}
         ></div>
+        <p>Light</p>
       </div>
     </div>
   );
