@@ -4,16 +4,10 @@ import "./Layout.scss";
 import Header from "./Header";
 import Navbar from "./Navbar";
 
-const Layout = () => {
-  const [theme, setTheme] = useState("dark");
-
-  const toggleTheme = (newTheme) => {
-    setTheme(newTheme);
-  };
-
+const Layout = ({ theme, onToggleTheme }) => {
   return (
-    <div className={`Layout ${theme}`}>
-      <Header onToggleTheme={toggleTheme} />
+    <div className="Layout">
+      <Header onToggleTheme={onToggleTheme} />
       <div className="content">
         <Navbar />
         <div className="page">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Layout from "../Layout/Layout";
@@ -10,18 +10,29 @@ import Design from "../Design/Design";
 import Resume from "../Resume/Resume";
 
 const App = () => {
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = (newTheme) => {
+    setTheme(newTheme);
+  };
+
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/design" element={<Design />} />
-          <Route path="/resume" element={<Resume />} />
-        </Route>
-      </Routes>
+      <div className={`App ${theme}`}>
+        <Routes>
+          <Route
+            path="/"
+            element={<Layout theme={theme} onToggleTheme={toggleTheme} />}
+          >
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="design" element={<Design />} />
+            <Route path="resume" element={<Resume />} />
+          </Route>
+        </Routes>
+      </div>
     </Router>
   );
 };

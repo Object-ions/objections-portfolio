@@ -2,55 +2,11 @@
 @import "../../scss/variables";
 
 .Layout {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   max-width: $max-width;
   height: 100vh;
   font-family: $font-text;
-  transition: background-color 0.3s, color 0.3s;
-
-  &.dark {
-    background: $dark-bg-color;
-    color: $dark-text-color;
-
-    a {
-      color: $dark-text-color;
-
-      &:hover {
-        color: #000;
-        background: $dark-special-color;
-      }
-    }
-
-    #header-4,
-    #header-5 {
-      color: transparent;
-      -webkit-text-stroke: 1px #fff;
-      text-stroke: 1px #fff;
-    }
-  }
-
-  &.light {
-    background: $light-bg-color;
-    color: $light-special-color;
-
-    a {
-      color: $special-orange;
-
-      &:hover {
-        color: #fff;
-        background: $special-orange;
-      }
-    }
-
-    #header-4,
-    #header-5 {
-      color: transparent;
-      -webkit-text-stroke: 1px $special-orange;
-      text-stroke: 1px $special-orange;
-    }
-  }
 
   .content {
     display: grid;
