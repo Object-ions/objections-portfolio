@@ -100,7 +100,7 @@
   },
   {
     "item-id": 7,
-    "title": "Pierre's Sweet and Savory Treats Management System",
+    "title": "Pierre's Treats Management System",
     "description": "This web application designed for Pierre to showcase his collection of delightful treats. The application emphasizes user experience, complete with an authentication system and a many-to-many relationship between treats and flavors.",
     "tags": [
       "HTML",

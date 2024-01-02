@@ -1,12 +1,51 @@
 @import "../../scss/variables";
 
 .Projects {
-  width: 80%;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  height: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 3rem;
+  align-items: center;
+  align-content: space-around;
+
+  .project-list {
+    ul {
+      list-style: none;
+
+      li button {
+        font-family: $font-symbols;
+        padding-bottom: 0.2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        color: var(--head-color);
+        margin-bottom: 0.1rem;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -0.1rem;
+          width: 0;
+          height: 0.1rem;
+          background-color: $dark-special-color;
+          transition: width 0.3s linear;
+        }
+
+        &:hover::before {
+          width: 100%;
+        }
+      }
+    }
+  }
 
   .item {
+    font-family: $font-symbols;
+    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -46,12 +85,20 @@
 
     .image-wrapper {
       display: flex;
-      align-items: center;
       gap: 0.5rem;
-    }
-    a {
+
+      a {
+        transition: transform 0.3s ease;
+
+        &:hover {
+          background: none;
+          transform: scale(0.9);
+        }
+      }
+
       .single-image {
-        width: 100%;
+        max-width: 100%;
+        display: block;
       }
     }
   }
