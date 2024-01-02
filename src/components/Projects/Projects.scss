@@ -1,0 +1,58 @@
+@import "../../scss/variables";
+
+.Projects {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    hr {
+      border: 0.5px solid $dark-special-color;
+    }
+
+    p {
+      vertical-align: center;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.5rem;
+
+      .tag {
+        background-color: $dark-special-color;
+        color: $dark-bg-color;
+        border-radius: 0.2rem;
+        padding: 0.2rem 0.3rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: space-between;
+
+      a {
+        padding: 0.25rem;
+      }
+    }
+
+    .image-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    a {
+      .single-image {
+        width: 100%;
+      }
+    }
+  }
+}
