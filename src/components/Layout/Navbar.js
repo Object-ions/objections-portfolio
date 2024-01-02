@@ -15,6 +15,11 @@ const Navbar = () => {
       path: "https://github.com/Object-ions",
       isExternal: true,
     },
+    {
+      name: "LinkedIn",
+      path: "https://github.com/Object-ions",
+      isExternal: true,
+    },
     { name: "Resume", path: "/resume", isExternal: false },
   ];
 

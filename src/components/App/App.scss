@@ -46,6 +46,30 @@ ul {
       }
     }
 
+    .Contact {
+      .contact-form {
+        form {
+          ul {
+            li {
+              input,
+              textarea {
+                border: 1px solid $dark-special-color;
+              }
+            }
+          }
+
+          .flat-button {
+            background-color: $dark-special-color;
+            color: $dark-bg-color;
+
+            &:hover {
+              background-color: darken($dark-special-color, 10%);
+            }
+          }
+        }
+      }
+    }
+
     #header-4,
     #header-5 {
       color: transparent;
@@ -75,6 +99,30 @@ ul {
       .tag {
         background-color: $special-orange;
         color: #fff;
+      }
+    }
+
+    .Contact {
+      .contact-form {
+        form {
+          ul {
+            li {
+              input,
+              textarea {
+                border: 1px solid $light-special-color;
+              }
+            }
+          }
+
+          .flat-button {
+            background-color: $special-orange;
+            color: $light-bg-color;
+
+            &:hover {
+              background-color: lighten($special-orange, 10%);
+            }
+          }
+        }
       }
     }
 
