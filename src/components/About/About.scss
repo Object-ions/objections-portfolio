@@ -1,0 +1,35 @@
+@import "../../scss/variables";
+
+.About {
+  font-family: $font-symbols;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    width: 50%;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+  }
+
+  .tag {
+    background-color: $special-orange;
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+  }
+}

@@ -40,7 +40,7 @@
       border: 1px solid $dark-border;
 
       &-dark {
-        background: #000;
+        background: $dark-bg-color;
         margin-right: 0.5rem;
 
         &:hover {

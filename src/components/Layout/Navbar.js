@@ -7,6 +7,7 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/", isExternal: false },
     { name: "About", path: "/about", isExternal: false },
+    { name: "Contact", path: "/contact", isExternal: false },
     { name: "Projects", path: "/projects", isExternal: false },
     { name: "Design", path: "/design", isExternal: false },
     {

@@ -39,11 +39,18 @@ ul {
       }
     }
 
+    .About {
+      .tag {
+        background-color: $dark-special-color;
+        color: $dark-bg-color;
+      }
+    }
+
     #header-4,
     #header-5 {
       color: transparent;
-      -webkit-text-stroke: 1px #fff;
-      text-stroke: 1px #fff;
+      -webkit-text-stroke: 1px $dark-special-color;
+      text-stroke: 1px $dark-special-color;
     }
   }
 
@@ -62,6 +69,13 @@ ul {
 
     .Layout {
       border: 1px solid $special-orange;
+    }
+
+    .About {
+      .tag {
+        background-color: $special-orange;
+        color: #fff;
+      }
     }
 
     #header-4,
