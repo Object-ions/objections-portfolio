@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Projects.scss";
 import DataCode from "../../data/code.json";
+import "animate.css";
 
 const ProjectsData = () => {
   const [selectedProjectId, setSelectedProjectId] = useState(
@@ -17,13 +18,20 @@ const ProjectsData = () => {
     (project) => project["item-id"] === selectedProjectId
   );
 
+  const fadeInLeft = "animate__animated animate__fadeInLeft";
+  const fadeInRight = "animate__animated animate__fadeInRight";
+
   return (
     <div className="Projects">
       {/* List of Projects */}
       <div className="project-list">
         <ul>
-          {DataCode.map((project) => (
-            <li key={project["item-id"]}>
+          {DataCode.map((project, index) => (
+            <li
+              key={project["item-id"]}
+              className={fadeInLeft}
+              style={{ animationDelay: `${index * 0.1}s` }} // Delay each li
+            >
               <button onClick={() => handleProjectClick(project["item-id"])}>
                 {"> "}
                 {project.title}
@@ -36,12 +44,19 @@ const ProjectsData = () => {
       {/* Display area */}
       {selectedProject && (
         <div className="item">
-          <h3>{selectedProject.title}</h3>
-          <hr />
-          <p>{selectedProject.description}</p>
+          <h3 className={fadeInRight} style={{ animationDelay: "0.1s" }}>
+            {selectedProject.title}
+          </h3>
+          <hr className={fadeInRight} style={{ animationDelay: "0.2s" }} />
+          <p className={fadeInRight} style={{ animationDelay: "0.3s" }}>
+            {selectedProject.description}
+          </p>
 
           {/* Tag list */}
-          <div className="tags">
+          <div
+            className={`tags ${fadeInRight}`}
+            style={{ animationDelay: "0.4s" }}
+          >
             {selectedProject.tags.map((tag, index) => (
               <span key={index} className="tag">
                 {tag}
@@ -50,7 +65,10 @@ const ProjectsData = () => {
           </div>
 
           {/* Live Site */}
-          <div className="links">
+          <div
+            className={`links ${fadeInRight}`}
+            style={{ animationDelay: "0.5s" }}
+          >
             {selectedProject["live-site"] && (
               <a
                 href={selectedProject["live-site"]}
@@ -74,7 +92,10 @@ const ProjectsData = () => {
           </div>
 
           {/* Image wrapper */}
-          <div className="image-wrapper">
+          <div
+            className={`image-wrapper ${fadeInRight}`}
+            style={{ animationDelay: "0.6s" }}
+          >
             {selectedProject.images.map((image, imgIndex) => (
               <a href={image} target="blank" key={imgIndex}>
                 <img
