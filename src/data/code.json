@@ -1,0 +1,213 @@
+[
+  {
+    "item-id": 1,
+    "title": "Jelly Belly Wiki - User Interface",
+    "description": "The Jelly Belly Wiki project uniquely combines front-end and back-end technologies, inspired by a passion for Jelly Belly confections. This project integrates a React-based user interface with a robust C# .NET EF Core backend, all centered around a bespoke API.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Webpack",
+      "TDD with Jest",
+      "Fetch API",
+      "Jelly Belly Wiki API"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Jelly_Belly_Wiki_Client",
+    "images": [""]
+  },
+  {
+    "item-id": 2,
+    "title": "Jelly Belly Wiki - API",
+    "description": "This API provides detailed information about Jelly Belly beans, including facts, milestones, recipes, and bean details. It is designed to be a comprehensive resource for Jelly Belly enthusiasts and researchers.",
+    "tags": [
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "MySQL",
+      "LINQ",
+      "Postman",
+      "Swagger"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API",
+    "images": [""]
+  },
+  {
+    "item-id": 3,
+    "title": "Jelly Belly Wiki - Data Collection",
+    "description": "This project focuses on the data collection and processing data for the Jelly Belly API, primarily using Python for web scraping from the official Jelly Belly website.",
+    "tags": [
+      "Python",
+      "Selenium WebDriver",
+      "BeautifulSoup",
+      "JSON",
+      "Artificial Intelligence (AI - ChatGPT 4)"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API-Data-Collection",
+    "images": [""]
+  },
+  {
+    "item-id": 4,
+    "title": "Coffee Shop Inventory",
+    "description": "This React application manages a coffee inventory. Users can add new burlap sacks of coffee, view details of each coffee type, edit coffee details, and sell coffee by the pound. Each sack of coffee displays its name, origin, roast type, weight, and price.",
+    "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
+    "live": "",
+    "github": "https://github.com/Object-ions/Coffee-Inventory-Tracker",
+    "images": [""]
+  },
+  {
+    "item-id": 5,
+    "title": "Animal Shelter API",
+    "description": "A web Api that allows the user to make API calls in order to check the database. The user can create, remove, update, and see detailed information about the animals in the animal shelter.",
+    "tags": [
+      "C#",
+      ".NET 6",
+      "ASP.NET Core Web API",
+      "Entity Framework Core",
+      "MySQL",
+      "Postman",
+      "Swagger"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/AnimalShelter.Solution",
+    "images": [""]
+  },
+  {
+    "item-id": 6,
+    "title": "EOL - Epicodus Online",
+    "description": "EOL is an AIM-inspired message service that allows users to communicate real-time in a public chat room, or one-on-one in a private conversation with another user.",
+    "tags": [
+      "Visual Studio Code",
+      "C#",
+      "Azure",
+      "ASP.NET Core MVC 6.0.0",
+      "ASP.NET Core SignalR Library",
+      "MySQL 8.0.34",
+      "Entity Framework Core 6.0.0",
+      "Entity Framework Core CLI Tools 6.0.0",
+      "Entity Framework Core Identity 6.0.0",
+      "Miro Board"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Eol.Solution",
+    "images": [
+      "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/login-d.png",
+      "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/eol-chat.png"
+    ]
+  },
+  {
+    "item-id": 7,
+    "title": "Pierre's Sweet and Savory Treats Management System",
+    "description": "This web application designed for Pierre to showcase his collection of delightful treats. The application emphasizes user experience, complete with an authentication system and a many-to-many relationship between treats and flavors.",
+    "tags": [
+      "HTML",
+      "C#",
+      "CSS",
+      "ASP.NET Core MVC 6.0.0",
+      "MySQL 8.0.34",
+      "Entity Framework Core 6.0.0"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/SST.Solution",
+    "images": [""]
+  },
+  {
+    "item-id": 8,
+    "title": "Dr. Sillystringz Factory Management System",
+    "description": "This web application will allow the user, a factory manager, to manage machines and engineers in a factory environment.",
+    "tags": [
+      "HTML",
+      "C#",
+      "CSS",
+      "ASP.NET Core MVC 6.0.0",
+      "Entity Framework Core 6.0.0"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Factory.Solution",
+    "images": [""]
+  },
+  {
+    "item-id": 9,
+    "title": "Claire Hair Salon Management System",
+    "description": "This application provides a platform for Claire (the user) to monitor her employees (stylists) and their respective clients. The user can search for clients by their stylist, or otherwise search through a list of all their clients.",
+    "tags": [
+      "C#",
+      ".NET 6",
+      "ASP.NET Core MVC",
+      "Entity Framework Core",
+      "ASP.NET Core MVC 6.0",
+      "MySQL",
+      "MySQL Workbench",
+      "HTML",
+      "CSS"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/HairSalon.Solution",
+    "images": [""]
+  },
+  {
+    "item-id": 10,
+    "title": "Pierre's Bakery - Console App",
+    "description": "This console application helps customers place their orders and calculate the total cost. Pierre's Bakery offers special deals on bread loaves and pastries. Price for bread: 5$ for a loaf or buy 2 get 1 free. Price for pastry: 2$ for a piece or buy 3 get 1 free. The app features intuitive UI design to provide a clear user experience.",
+    "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
+    "live": "",
+    "github": "https://github.com/Object-ions/PierresBakery",
+    "images": [""]
+  },
+  {
+    "item-id": 11,
+    "title": "Pierre's Bakery - Vendor Order Tracker",
+    "description": "An MVC web application built in .NET to manage and track orders from different vendors.",
+    "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
+    "live": "",
+    "github": "https://github.com/Object-ions/PierresVendorOrderTracker.Solution",
+    "images": [""]
+  },
+  {
+    "item-id": 12,
+    "title": "Pig Dice Game",
+    "description": "The Pig Dice Game is an interactive, two-player dice game created using HTML, CSS, and JavaScript. The game is designed to test your luck as you compete against another player to reach a total score of 100 points first. The application keeps track of the scores for each player, and the state of the game, providing an engaging and dynamic user experience. in this version, I've added new functionalities and revamped the UI to provide an even more engaging and dynamic user experience.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "live": "",
+    "github": "https://github.com/Object-ions/Pig-Dice?tab=readme-ov-file",
+    "images": [""]
+  },
+  {
+    "item-id": 13,
+    "title": "Plant Professor",
+    "description": "Plant Professor is a reimagined version of the original project, with a focus on enhancing the user interface. Originally contributing to the backend of the initial project, my background as a former designer compelled me to revisit the frontend. This redesigned version embodies my journey to polish the design, improve the overall user experience, and enrich my CSS expertise while integrating additional UI utilities.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Webpack",
+      "Babel",
+      "Fetch API",
+      "Bing Maps API",
+      "Perenual API"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Plant-Professor",
+    "images": [""]
+  },
+  {
+    "item-id": 14,
+    "title": "Currency Converter",
+    "description": "Currency Converter is a simple web application that allows users to convert between different currencies. It fetches the most up-to-date exchange rates from the ExchangeRate-API.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Webpack",
+      "Babel",
+      "Fetch API",
+      "ExchangeRate-API"
+    ],
+    "live": "",
+    "github": "https://github.com/Object-ions/Currency-Exchanger",
+    "images": [""]
+  }
+]
