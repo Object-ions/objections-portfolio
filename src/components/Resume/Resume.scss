@@ -56,4 +56,15 @@
       margin-right: 5rem;
     }
   }
+  .resume {
+    margin-top: 2rem;
+
+    svg {
+      margin-left: 0.5rem;
+    }
+
+    a {
+      color: $dark-special-color;
+    }
+  }
 }

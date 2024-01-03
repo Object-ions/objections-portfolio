@@ -38,13 +38,22 @@ const Navbar = () => {
       </ul>
       <ul className="ex-links">
         <li>
-          <a href="https://github.com/Object-ions">
+          <a
+            target="blank"
+            href="https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link"
+          >
+            (Resume)
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          </a>
+        </li>
+        <li>
+          <a target="blank" href="https://github.com/Object-ions">
             (GitHub)
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/moses-a-p/">
+          <a target="blank" href="https://www.linkedin.com/in/moses-a-p/">
             (LinkedIn)
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </a>

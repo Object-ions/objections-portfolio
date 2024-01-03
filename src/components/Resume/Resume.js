@@ -2,12 +2,15 @@ import React from "react";
 import "./Resume.scss";
 import resumeData from "../../data/resume.json";
 import Skills from "../Skills/Skills";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
   const { about, education, experience } = resumeData;
 
   return (
     <div className="Resume">
+      <div className="resume-wrapper"></div>
       <div className="resume-header">
         <h2>Moshe Atia Poston</h2>
         <p>Portland, OR, USA</p>
@@ -68,6 +71,13 @@ const Resume = () => {
         <h3>Skills</h3>
         <hr />
         <Skills />
+      </div>
+
+      <div className="resume">
+        <a href="https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link">
+          Download Full Resume
+          <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+        </a>
       </div>
     </div>
   );
