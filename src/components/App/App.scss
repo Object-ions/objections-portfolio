@@ -15,6 +15,10 @@ body {
 
 a {
   text-decoration: none;
+
+  &:hover {
+    cursor: crosshair;
+  }
 }
 
 ul {
@@ -43,6 +47,14 @@ ul {
       .tag {
         background-color: $dark-special-color;
         color: $dark-bg-color;
+      }
+    }
+
+    .Header {
+      h1:hover,
+      h5:hover {
+        cursor: crosshair;
+        color: $dark-special-color;
       }
     }
 
@@ -141,6 +153,14 @@ ul {
       }
     }
 
+    .Header {
+      h1:hover,
+      h5:hover {
+        cursor: crosshair;
+        color: $special-orange;
+      }
+    }
+
     .Contact {
       .contact-form {
         form {
@@ -148,7 +168,7 @@ ul {
             li {
               input,
               textarea {
-                border: 1px solid $light-special-color;
+                border: 1px solid $special-orange;
               }
             }
           }
@@ -201,7 +221,11 @@ ul {
 
     #light-mode {
       background: $special-orange;
-      border: 1px solid $special-orange;
+      border-color: $special-orange;
+
+      &:hover {
+        color: $special-orange;
+      }
     }
 
     #dark-mode {
