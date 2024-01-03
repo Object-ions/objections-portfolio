@@ -4,9 +4,7 @@ import DataCode from "../../data/code.json";
 import "animate.css";
 
 const ProjectsData = () => {
-  const [selectedProjectId, setSelectedProjectId] = useState(
-    DataCode[0]["item-id"]
-  );
+  const [selectedProjectId, setSelectedProjectId] = useState(null);
 
   // Handle clicking on a project title passing its ID
   const handleProjectClick = (itemId) => {
@@ -18,7 +16,6 @@ const ProjectsData = () => {
     (project) => project["item-id"] === selectedProjectId
   );
 
-  const fadeInLeft = "animate__animated animate__fadeInLeft";
   const fadeInRight = "animate__animated animate__fadeInRight";
 
   return (
@@ -29,7 +26,7 @@ const ProjectsData = () => {
           {DataCode.map((project, index) => (
             <li
               key={project["item-id"]}
-              className={fadeInLeft}
+              className={fadeInRight}
               style={{ animationDelay: `${index * 0.1}s` }} // Delay each li
             >
               <button onClick={() => handleProjectClick(project["item-id"])}>
@@ -43,7 +40,7 @@ const ProjectsData = () => {
 
       {/* Display area */}
       {selectedProject && (
-        <div className="item">
+        <div className="item" key={selectedProjectId}>
           <h3 className={fadeInRight} style={{ animationDelay: "0.1s" }}>
             {selectedProject.title}
           </h3>
