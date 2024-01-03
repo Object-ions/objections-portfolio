@@ -9,23 +9,31 @@ import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
 import Design from "../Design/Design";
 import Resume from "../Resume/Resume";
+import Popup from "../Popup/Popup";
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [showPopup, setShowPopup] = useState(true); // State to control the visibility of the popup
 
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
+    localStorage.setItem("theme", newTheme); // Update local storage with new theme
   };
 
   // Update the body background color when the theme changes
   useEffect(() => {
-    localStorage.setItem("theme", theme);
     document.body.style.background = theme === "dark" ? "#1c1c1c" : "#e0e0e0";
   }, [theme]);
+
+  // Function to handle closing the popup
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
 
   return (
     <Router>
       <div className={`App ${theme}`}>
+        {showPopup && <Popup onClose={handleClosePopup} />}
         <Routes>
           <Route
             path="/"
