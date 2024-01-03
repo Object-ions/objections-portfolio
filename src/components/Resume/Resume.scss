@@ -8,6 +8,10 @@
   ul {
     list-style-type: circle;
     margin-left: 0.75rem;
+
+    li {
+      color: darken($dark-text-color, 50%);
+    }
   }
 
   hr {
@@ -24,12 +28,16 @@
     margin-bottom: 0.2rem;
   }
 
-  p {
+  span {
     font-size: 0.75rem;
 
-    &::before {
-      content: "- ";
+    &::after {
+      content: ", ";
     }
+  }
+
+  p {
+    font-size: 0.75rem;
   }
 
   li {
@@ -42,27 +50,10 @@
     justify-content: space-between;
   }
 
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem;
-    margin-bottom: 0.5rem;
-    width: 50%;
-
-    &:hover {
-      cursor: crosshair;
-    }
-  }
-
-  .tag {
-    background: $dark-special-color;
-    color: $dark-bg-color;
-    border-radius: 0.2rem;
-    padding: 0.2rem 0.3rem;
-    font-size: 0.8rem;
-
-    &:hover {
-      cursor: crosshair;
+  .about {
+    p {
+      color: darken($dark-text-color, 50%);
+      margin-right: 5rem;
     }
   }
 }

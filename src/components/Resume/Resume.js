@@ -13,46 +13,60 @@ const Resume = () => {
         <p>Portland, OR, USA</p>
       </div>
 
-      <h3>About</h3>
-      <hr />
-      {about.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
-      ))}
+      {/* About */}
+      {/* <div className="about">
+        <h3>About</h3>
+        <hr />
+        {about.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
+      </div> */}
 
-      <h3>Education</h3>
-      <hr />
-      {education.map((edu, index) => (
-        <div key={index}>
-          <h4>{edu.title}</h4>
-          <p>
-            {edu.institution} ({edu.duration})
-          </p>
-          <ul>
-            {edu.details.map((detail, dIndex) => (
-              <li key={dIndex}>{detail}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      {/* Education */}
+      <div className="education">
+        <h3>Education</h3>
+        <hr />
+        {education.map((edu, index) => (
+          <div key={index}>
+            <h4>{edu.title}</h4>
+            <p>
+              {edu.institution} ({edu.duration})
+            </p>
+            <ul>
+              {edu.details.map((detail, dIndex) => (
+                <li key={dIndex}>{detail}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
 
-      <h3>Professional Experience</h3>
-      <hr />
-      {experience.map((exp, index) => (
-        <div key={index}>
-          <h4>{exp.title}</h4>
-          <p>
-            {exp.company} ({exp.duration})
-          </p>
-          <ul>
-            {exp.details.map((detail, dIndex) => (
-              <li key={dIndex}>{detail}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      {/* Experience */}
+      {/* <div className="experience">
+        <h3>Professional Experience</h3>
+        <hr />
+        {experience.map((exp, index) => (
+          <div key={index}>
+            <div className="company-duration">
+              <h4>{exp.title}</h4>
 
+              <p>
+                {exp.company} ({exp.duration})
+              </p>
+            </div>
+            <ul>
+              {exp.details.map((detail, dIndex) => (
+                <li key={dIndex}>{detail}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div> */}
+
+      {/* Skills */}
       <div className="skills">
         <h3>Skills</h3>
+        <hr />
         <Skills />
       </div>
     </div>
