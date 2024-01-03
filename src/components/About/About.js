@@ -1,33 +1,8 @@
 import React from "react";
 import "./About.scss";
+import Skills from "../Skills/Skills";
 
 const About = () => {
-  const skills = [
-    "Adobe Photoshop",
-    "Adobe Illustrator",
-    "Adobe InDesign",
-    "Adobe XD",
-    "Solidworks",
-    "Rhinoceros 3D",
-    "Keyshot",
-    "VSCode",
-    "Postman",
-    "HTML",
-    "CSS",
-    "SCSS",
-    "JavaScript",
-    "JQuery",
-    "GitHub",
-    "BASH",
-    "C#",
-    "ASP.NET",
-    "MySQL",
-    "NoSQL",
-    "Firebase",
-    "React",
-    "Redux",
-  ];
-
   const paragraphs = [
     "I'm a Full-Stack Developer with a unique blend of skills in programming and design.",
     "With a Bachelor's degree in Industrial Design, I bring a creative approach to programming.",
@@ -57,19 +32,7 @@ const About = () => {
       >
         My expertise includes:
       </p>
-      <div className="tags">
-        {skills.map((skill, index) => (
-          <span
-            key={skill}
-            className="tag animate__animated animate__fadeInRight"
-            style={{
-              animationDelay: `${0.1 * (paragraphs.length + index + 1)}s`,
-            }}
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
+      <Skills />
     </div>
   );
 };

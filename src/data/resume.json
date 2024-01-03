@@ -1,0 +1,112 @@
+{
+  "about": [
+    "Dynamic and highly-motivated Full-Stack Developer, forward thinking and adaptable to new technologies with a strong design background and entrepreneurial spirit.",
+    "Excellent problem-solving skills with a detail-oriented approach.",
+    "Equipped with diverse work experience, ranging from design and development to customer service and sales management.",
+    "Adept at leveraging tech proficiency and leadership abilities to drive business growth, client retention, and team success.",
+    "Proficient in integrating AI solutions to enhance and innovate across technological domains."
+  ],
+
+  "education": [
+    {
+      "title": "Certification in Full-Stack Development (C#, React)",
+      "institution": "Epicodus, Portland, Oregon",
+      "duration": "May 2023 - Dec 2023",
+      "details": [
+        "Intensive 27-week, full-time, in-person bootcamp focused on full-stack development.",
+        "Acquired expertise in Git, BASH, HTML, CSS, JavaScript, Test-Driven Development, React, C# and .NET.",
+        "Create and managed database: MySQL, NoSQL, create web API and Firebase.",
+        "Developed applications using ASP.NET, React, Redux and Bootstrap.",
+        "Collaborated in teams and practiced pair programming, including two team-week projects.",
+        "Enhanced communication and teamwork through daily coding challenges and weekly code review submissions."
+      ]
+    },
+    {
+      "title": "Certification in Front-End Development",
+      "institution": "General Assembly- San Francisco, California",
+      "duration": "2019",
+      "details": [
+        "Completed 60 hours in Front-End development.",
+        "Built web applications using HTML, CSS, JQuery, and Bootstrap."
+      ]
+    },
+    {
+      "title": "Bachelor of Design degree, Industrial Design",
+      "institution": "Shenkar College of Engineering and Design",
+      "duration": "2014 - 2018",
+      "details": [
+        "Mastered 3D modeling, prototyping, and material utilization.",
+        "Applied iterative design methodologies.",
+        "Improved visual and graphic design techniques, from sketching to digital rendering.",
+        "Participated in a multi-week interdisciplinary product challenge, enhancing collaboration."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Studio Manager & Sales Team Leader",
+      "company": "Santa Fe Spa Center, Santa Fe, NM",
+      "duration": "2022-2023",
+      "details": [
+        "Led sales and clinic teams.",
+        "Drove sales growth and customer satisfaction.",
+        "Fostered client relationships for high retention and repeat business."
+      ]
+    },
+    {
+      "title": "Sales Team Member & Graphic Designer",
+      "company": "Le Caprice, Corte Madera, CA",
+      "duration": "2018-2021",
+      "details": [
+        "Sold medical-grade skincare products with a focus on relationship building.",
+        "Created digital and print marketing materials, including newsletters, banners, ads, brochures, and instructions."
+      ]
+    },
+    {
+      "title": "Application Designer & Developer",
+      "company": "Ares, Tel Aviv, IL",
+      "duration": "2015-2017",
+      "details": [
+        "Designed and developed a dating app for the gay community with a focus on user safety.",
+        "Managed all aspects of app design and production, including UX/UI.",
+        "Facilitated meetings with investors and showcased app prototypes to mobile app developers."
+      ]
+    },
+    {
+      "title": "Transcription Contractor",
+      "company": "Appen, Tel Aviv, IL",
+      "duration": "2015",
+      "details": [
+        "Collaborated with Apple on Siri’s AI language translation in Hebrew."
+      ]
+    }
+  ],
+  "skills": {
+    "software": [
+      "Adobe Photoshop",
+      "Illustrator",
+      "InDesign",
+      "XD",
+      "Solidworks",
+      "Rhinoceros 3D",
+      "Keyshot",
+      "VSCode",
+      "Postman"
+    ],
+    "programming": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JQuery",
+      "GitHub",
+      "BASH",
+      "C#",
+      "ASP.NET",
+      "MySQL",
+      "NoSQL",
+      "Firebase",
+      "React",
+      "Redux"
+    ]
+  }
+}

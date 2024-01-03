@@ -1,0 +1,68 @@
+@import "/src/scss/variables";
+
+.Resume {
+  font-family: $font-symbols;
+  margin: 5rem 5rem 0 0;
+  max-width: 80%;
+
+  ul {
+    list-style-type: circle;
+    margin-left: 0.75rem;
+  }
+
+  hr {
+    margin-bottom: 0.5rem;
+    border: 1px solid $dark-special-color;
+  }
+
+  h3 {
+    margin-top: 0.75rem;
+  }
+
+  h4 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+
+    &::before {
+      content: "- ";
+    }
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  .resume-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+
+    &:hover {
+      cursor: crosshair;
+    }
+  }
+
+  .tag {
+    background: $dark-special-color;
+    color: $dark-bg-color;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+
+    &:hover {
+      cursor: crosshair;
+    }
+  }
+}
