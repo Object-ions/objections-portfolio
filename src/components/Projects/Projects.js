@@ -22,6 +22,7 @@ const ProjectsData = () => {
     <div className="Projects">
       {/* List of Projects */}
       <div className="project-list">
+        <h2>Programming Projects:</h2>
         <ul>
           {DataCode.map((project, index) => (
             <li

@@ -29,6 +29,9 @@
     margin-right: 0.5rem;
   }
   .mode-control {
+    position: absolute;
+    right: 2rem;
+    top: -2.75rem;
     font-family: $font-symbols;
     margin-top: 1rem;
     display: flex;
@@ -41,7 +44,7 @@
       border: 1px solid $dark-border;
 
       &-dark {
-        background: $dark-bg-color;
+        background: none;
         margin-right: 0.5rem;
 
         &:hover {
@@ -50,11 +53,11 @@
       }
 
       &-light {
-        background: #fff;
+        background: none;
         margin-right: 0.5rem;
 
         &:hover {
-          background: darken(#fff, 10%);
+          background: #fff;
         }
       }
     }

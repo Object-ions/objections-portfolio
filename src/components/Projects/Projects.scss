@@ -10,6 +10,11 @@
   align-items: center;
   align-content: space-around;
 
+  h2 {
+    font-family: $font-symbols;
+    margin-bottom: 0.75rem;
+  }
+
   .project-list {
     ul {
       list-style: none;

@@ -104,6 +104,11 @@ ul {
       }
     }
 
+    #dark-mode {
+      background: $dark-special-color;
+      border: 1px solid $dark-special-color;
+    }
+
     #header-4,
     #header-5 {
       color: transparent;
@@ -192,6 +197,15 @@ ul {
           }
         }
       }
+    }
+
+    #light-mode {
+      background: $special-orange;
+      border: 1px solid $special-orange;
+    }
+
+    #dark-mode {
+      border: 1px solid $light-special-color;
     }
 
     #header-4,
