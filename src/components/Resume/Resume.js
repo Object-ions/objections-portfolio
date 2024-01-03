@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
-  const { about, education, experience } = resumeData;
+  const { education } = resumeData;
+  // const { about, education, experience } = resumeData;
 
   const getAnimationClass = (index) => ({
     className: "animate__animated animate__fadeInRight",
