@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "animate.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-
 const Navbar = () => {
   const navItems = [
     { name: "> Home", path: "/", isExternal: false },
@@ -15,49 +14,47 @@ const Navbar = () => {
     { name: "> Contact", path: "/contact", isExternal: false },
   ];
 
+  const externalLinks = [
+    {
+      name: "(Resume)",
+      path: "https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link",
+    },
+    { name: "(GitHub)", path: "https://github.com/Object-ions" },
+    { name: "(LinkedIn)", path: "https://www.linkedin.com/in/moses-a-p/" },
+  ];
+
   return (
     <div className="Navbar">
       <ul className="site-nav">
-        {navItems.map((item, index) => {
-          const delay = `${index * 0.1}s`;
-          const animationClasses = "animate__animated animate__fadeInLeft";
-          const style = { animationDelay: delay };
-
-          return (
-            <li key={item.name} className={animationClasses} style={style}>
-              {item.isExternal ? (
-                <a href={item.path} target="_blank" rel="noopener noreferrer">
-                  {item.name}
-                </a>
-              ) : (
-                <Link to={item.path}>{item.name}</Link>
-              )}
-            </li>
-          );
-        })}
+        {navItems.map((item, index) => (
+          <li
+            key={item.name}
+            className="animate__animated animate__fadeInLeft"
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
+            {item.isExternal ? (
+              <a href={item.path} target="_blank" rel="noopener noreferrer">
+                {item.name}
+              </a>
+            ) : (
+              <Link to={item.path}>{item.name}</Link>
+            )}
+          </li>
+        ))}
       </ul>
       <ul className="ex-links">
-        <li>
-          <a
-            target="blank"
-            href="https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link"
+        {externalLinks.map((link, index) => (
+          <li
+            key={link.name}
+            className="animate__animated animate__fadeInLeft"
+            style={{ animationDelay: `${(navItems.length + index) * 0.1}s` }}
           >
-            (Resume)
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </a>
-        </li>
-        <li>
-          <a target="blank" href="https://github.com/Object-ions">
-            (GitHub)
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </a>
-        </li>
-        <li>
-          <a target="blank" href="https://www.linkedin.com/in/moses-a-p/">
-            (LinkedIn)
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </a>
-        </li>
+            <a href={link.path} target="_blank" rel="noopener noreferrer">
+              {link.name}
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
