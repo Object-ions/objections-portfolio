@@ -8,10 +8,14 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 const Resume = () => {
   const { about, education, experience } = resumeData;
 
+  const getAnimationClass = (index) => ({
+    className: "animate__animated animate__fadeInRight",
+    style: { animationDelay: `${index * 0.1}s` },
+  });
+
   return (
     <div className="Resume">
-      <div className="resume-wrapper"></div>
-      <div className="resume-header">
+      <div className="resume-header" {...getAnimationClass(0)}>
         <h2>Moshe Atia Poston</h2>
         <p>Portland, OR, USA</p>
       </div>
@@ -26,7 +30,7 @@ const Resume = () => {
       </div> */}
 
       {/* Education */}
-      <div className="education">
+      <div className="education" {...getAnimationClass(1)}>
         <h3>Education</h3>
         <hr />
         {education.map((edu, index) => (
@@ -67,13 +71,16 @@ const Resume = () => {
       </div> */}
 
       {/* Skills */}
-      <div className="skills">
+      <div className="skills" {...getAnimationClass(2)}>
         <h3>Skills</h3>
         <hr />
         <Skills />
       </div>
 
-      <div className="resume">
+      <div
+        className="resume animate__animated animate__fadeInUp"
+        style={{ animationDelay: `${(education.length + 3) * 0.1}s` }}
+      >
         <a href="https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link">
           Download Full Resume
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

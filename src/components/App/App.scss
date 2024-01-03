@@ -116,6 +116,29 @@ ul {
       }
     }
 
+    .Resume {
+      ul {
+        li {
+          color: darken($dark-text-color, 50%);
+        }
+      }
+
+      hr {
+        border: 1px solid $dark-special-color;
+      }
+
+      .about {
+        p {
+          color: darken($dark-text-color, 50%);
+          margin-right: 5rem;
+        }
+      }
+
+      a {
+        color: $dark-special-color;
+      }
+    }
+
     #dark-mode {
       background: $dark-special-color;
       border: 1px solid $dark-special-color;
@@ -216,6 +239,29 @@ ul {
             color: $light-bg-color;
           }
         }
+      }
+    }
+
+    .Resume {
+      ul {
+        li {
+          color: lighten($light-special-color, 15%);
+        }
+      }
+
+      hr {
+        border: 1px solid $special-orange;
+      }
+
+      .about {
+        p {
+          color: $light-special-color;
+          margin-right: 5rem;
+        }
+      }
+
+      a {
+        color: $special-orange;
       }
     }
 

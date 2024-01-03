@@ -9,11 +9,11 @@ import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
 import Design from "../Design/Design";
 import Resume from "../Resume/Resume";
-import Popup from "../Popup/Popup";
+// import Popup from "../Popup/Popup";
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-  const [showPopup, setShowPopup] = useState(true); // State to control the visibility of the popup
+  // const [showPopup, setShowPopup] = useState(true); // State to control the visibility of the popup
 
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
@@ -26,14 +26,14 @@ const App = () => {
   }, [theme]);
 
   // Function to handle closing the popup
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
+  // const handleClosePopup = () => {
+  //   setShowPopup(false);
+  // };
 
   return (
     <Router>
       <div className={`App ${theme}`}>
-        {showPopup && <Popup onClose={handleClosePopup} />}
+        {/* {showPopup && <Popup onClose={handleClosePopup} />} */}
         <Routes>
           <Route
             path="/"
