@@ -315,7 +315,12 @@ ul {
         display: block;
 
         .Navbar {
-          display: none;
+          position: absolute;
+          bottom: 2rem;
+
+          ul {
+            font-size: 0.65rem;
+          }
         }
 
         .page {
@@ -400,7 +405,12 @@ ul {
         display: block;
 
         .Navbar {
-          display: none;
+          position: absolute;
+          bottom: 2rem;
+
+          ul {
+            font-size: 0.65rem;
+          }
         }
 
         .page {
