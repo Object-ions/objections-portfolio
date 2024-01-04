@@ -287,7 +287,7 @@ ul {
   }
 
   @include respond-to("mobile") {
-    background: red !important;
+    // background: red !important;
 
     .Layout {
       .Header {
@@ -312,7 +312,8 @@ ul {
           display: block;
 
           .Home {
-            margin: 5rem 0 0 2rem;
+            margin: 5rem auto;
+            text-align: center;
 
             h2 {
               font-size: 3rem;
@@ -325,10 +326,9 @@ ul {
 
           .About {
             padding: 2rem 1rem;
-
-            width: 100%;
+            margin: auto;
+            width: 70%;
             display: block;
-            text-align: center;
 
             h3,
             p {
@@ -337,9 +337,12 @@ ul {
 
             .tags {
               width: 90%;
-              justify-content: center;
-              margin: 0.5rem 1rem;
             }
+          }
+
+          .Contact,
+          .Resume {
+            margin: 2rem auto;
           }
 
           .Projects {
@@ -380,7 +383,7 @@ ul {
     }
   }
   @include respond-to("tablet") {
-    background: blue !important;
+    // background: blue !important;
 
     .Layout {
       .content {
@@ -393,8 +396,7 @@ ul {
         .page {
           .About {
             padding: 2rem 1rem;
-            width: 70%;
-            text-align: center;
+            width: 50%;
 
             h3,
             p {
@@ -403,8 +405,6 @@ ul {
 
             .tags {
               width: 90%;
-              justify-content: center;
-              margin: 0.5rem 1rem;
             }
           }
 
@@ -424,7 +424,6 @@ ul {
               flex-grow: 1;
 
               ul {
-                // background: red;
                 margin: 0;
                 padding: 0;
                 width: 300px;
@@ -448,18 +447,11 @@ ul {
     }
   }
   @include respond-to("desktop") {
-    background: green !important;
+    // background: green !important;
 
     .Layout {
       .content {
-        // display: block;
-
-        .Navbar {
-          // display: none;
-        }
-
         .page {
-          // display: block;
           .Projects {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -477,7 +469,6 @@ ul {
               flex-grow: 1;
 
               ul {
-                // background: red;
                 margin: 0;
                 padding: 0;
                 width: 300px;

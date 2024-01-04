@@ -8,7 +8,7 @@
       @content;
     }
   } @else if $breakpoint == "desktop" {
-    @media (min-width: 1024px) {
+    @media (min-width: 1023px) and (max-width: 1245px) {
       @content;
     }
   }
