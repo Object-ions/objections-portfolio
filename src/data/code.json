@@ -116,7 +116,7 @@
   },
   {
     "item-id": 8,
-    "title": "Dr. Sillystringz Factory Management System",
+    "title": "Factory Management System",
     "description": "This web application will allow the user, a factory manager, to manage machines and engineers in a factory environment.",
     "tags": [
       "HTML",
@@ -159,7 +159,7 @@
   },
   {
     "item-id": 11,
-    "title": "Pierre's Bakery - Vendor Order Tracker",
+    "title": "Bakery - Vendor Order Tracker",
     "description": "An MVC web application built in .NET to manage and track orders from different vendors.",
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": "",

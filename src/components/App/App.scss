@@ -286,13 +286,159 @@ ul {
     }
   }
 
-  // @include respond-to("mobile") {
-  //   background: red !important;
-  // }
-  // @include respond-to("tablet") {
-  //   background: blue !important;
-  // }
-  // @include respond-to("desktop") {
-  //   background: green !important;
-  // }
+  @include respond-to("mobile") {
+    background: red !important;
+
+    .Layout {
+      .content {
+        display: block;
+
+        .Navbar {
+          display: none;
+        }
+
+        .page {
+          display: block;
+          .Projects {
+            display: block;
+
+            align-items: baseline;
+            grid-gap: 1rem;
+            margin-right: 0;
+            margin-top: 5rem;
+            height: auto;
+
+            .project-list {
+              margin-left: 3rem;
+              display: flex;
+              flex-direction: column;
+              flex-grow: 1;
+
+              ul {
+                padding: 0;
+                width: 300px;
+
+                li {
+                  button {
+                    text-align: left;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+
+            .item {
+              margin: 2rem auto;
+              width: 350px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to("tablet") {
+    background: blue !important;
+
+    .Layout {
+      .content {
+        display: block;
+
+        .Navbar {
+          display: none;
+        }
+
+        .page {
+          display: block;
+          .Projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: baseline;
+            grid-gap: 1rem;
+            margin-right: 0;
+            margin-top: 5rem;
+            height: auto;
+
+            .project-list {
+              margin-left: 3rem;
+              display: flex;
+              flex-direction: column;
+              flex-grow: 1;
+
+              ul {
+                // background: red;
+                margin: 0;
+                padding: 0;
+                width: 300px;
+
+                li {
+                  button {
+                    text-align: left;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+
+            .item {
+              margin-right: 1rem;
+              width: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to("desktop") {
+    background: green !important;
+
+    .Layout {
+      .content {
+        // display: block;
+
+        .Navbar {
+          // display: none;
+        }
+
+        .page {
+          // display: block;
+          .Projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+            margin-right: 0;
+            margin-top: 5rem;
+            height: auto;
+            align-items: start;
+            align-content: space-between;
+
+            .project-list {
+              margin-left: 1rem;
+              display: flex;
+              flex-direction: column;
+              flex-grow: 1;
+
+              ul {
+                // background: red;
+                margin: 0;
+                padding: 0;
+                width: 300px;
+
+                li {
+                  button {
+                    text-align: left;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+
+            .item {
+              margin-right: 1rem;
+              width: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
