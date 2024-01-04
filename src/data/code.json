@@ -15,7 +15,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly_Belly_Wiki_Client",
-    "images": ["/images/JBW-client.png"]
+    "images": ["/images/JBW-client-1.png", "/images/JBW-client-2.png"]
   },
   {
     "item-id": 2,
@@ -32,7 +32,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API",
-    "images": [""]
+    "images": ["/images/JBW-api-1.png", "/images/JBW-api-2.png"]
   },
   {
     "item-id": 3,
@@ -47,7 +47,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API-Data-Collection",
-    "images": [""]
+    "images": ["/images/JBW-scrape-1.png", "/images/JBW-scrape-2.png"]
   },
   {
     "item-id": 4,
@@ -56,7 +56,7 @@
     "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
     "live": "",
     "github": "https://github.com/Object-ions/Coffee-Inventory-Tracker",
-    "images": [""]
+    "images": ["/images/coffee-1.png", "/images/coffee-2.png"]
   },
   {
     "item-id": 5,
@@ -73,7 +73,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/AnimalShelter.Solution",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 6,
@@ -112,7 +112,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/SST.Solution",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 8,
@@ -127,7 +127,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Factory.Solution",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 9,
@@ -146,7 +146,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/HairSalon.Solution",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 10,
@@ -155,7 +155,7 @@
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": "",
     "github": "https://github.com/Object-ions/PierresBakery",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 11,
@@ -164,7 +164,7 @@
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": "",
     "github": "https://github.com/Object-ions/PierresVendorOrderTracker.Solution",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 12,
@@ -173,7 +173,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "live": "",
     "github": "https://github.com/Object-ions/Pig-Dice?tab=readme-ov-file",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 13,
@@ -191,7 +191,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Plant-Professor",
-    "images": [""]
+    "images": []
   },
   {
     "item-id": 14,
@@ -208,6 +208,6 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Currency-Exchanger",
-    "images": [""]
+    "images": []
   }
 ]
