@@ -290,6 +290,17 @@ ul {
     background: red !important;
 
     .Layout {
+      .Header {
+        h1 {
+          font-size: 3rem;
+        }
+
+        small {
+          font-size: 1.5rem;
+          top: 1.5rem;
+        }
+      }
+
       .content {
         display: block;
 
@@ -299,6 +310,19 @@ ul {
 
         .page {
           display: block;
+
+          .Home {
+            margin: 5rem 0 0 2rem;
+
+            h2 {
+              font-size: 3rem;
+            }
+
+            #header-9 {
+              font-size: 4rem;
+            }
+          }
+
           .Projects {
             display: block;
 

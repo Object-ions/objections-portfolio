@@ -37,7 +37,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="home">
+    <div className="Home">
       {headerParts.map((text, index) => (
         <HeaderPart
           key={index}
