@@ -9,8 +9,18 @@
 
 body {
   background: $dark-bg-color;
-  margin: 0 auto;
-  overflow: hidden;
+  margin: 2rem;
+  overflow: auto;
+  border: 1px solid #fff;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
 }
 
 a {
@@ -27,7 +37,7 @@ ul {
 
 .App {
   margin: 0 auto;
-  height: 100vh;
+  // height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 
   &.dark {
