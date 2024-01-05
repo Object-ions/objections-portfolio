@@ -149,6 +149,10 @@ ul {
       }
     }
 
+    .Design {
+      background: url($dark-image-path) no-repeat center center;
+    }
+
     #dark-mode {
       background: $dark-special-color;
       border: 1px solid $dark-special-color;
@@ -274,6 +278,10 @@ ul {
       a {
         color: $special-orange;
       }
+    }
+
+    .Design {
+      background: url($light-image-path) no-repeat center center;
     }
 
     #light-mode {

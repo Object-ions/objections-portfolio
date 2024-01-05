@@ -14,17 +14,19 @@ const Design = () => {
   console.log("Design");
   return (
     <div className="Design">
-      <p {...getAnimationDelay(0)}>
-        {"// "}Portfolio Under Construction
-        <hr />
-      </p>
-      <p {...getAnimationDelay(1)}>
-        <br />
-        <span class="color">console.log</span>("Hey there! This part of my
-        portfolio is still being perfected.
-        <br />
-        Can't wait to share it with you. Stay tuned! " );
-      </p>
+      <div className="des-background">
+        <p {...getAnimationDelay(0)}>
+          {"// "}Portfolio Under Construction
+          <hr />
+        </p>
+        <p {...getAnimationDelay(1)}>
+          <br />
+          <span class="color">console.log</span>("Hey there! This part of my
+          portfolio is still being perfected.
+          <br />
+          Can't wait to share it with you. Stay tuned! " );
+        </p>
+      </div>
     </div>
   );
 };
