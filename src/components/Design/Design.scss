@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+
+.Design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .color {
+    color: $special-orange;
+  }
+  p {
+    font-family: $font-symbols;
+  }
+}

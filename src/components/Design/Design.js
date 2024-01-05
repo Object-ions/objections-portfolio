@@ -1,7 +1,21 @@
 import React from "react";
+import "./Design.scss";
 
 const Design = () => {
-  return <div>It Is Still a Work In Progress ...</div>;
+  console.log("Design");
+  return (
+    <div className="Design">
+      <p>
+        {"// "}Portfolio Under Construction
+        <hr />
+        <br />
+        <span class="color">console.log</span>("Hey there! This part of my
+        portfolio is still being perfected.
+        <br />
+        Can't wait to share it with you. Stay tuned! " );
+      </p>
+    </div>
+  );
 };
 
 export default Design;
