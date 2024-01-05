@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 const Header = ({ onToggleTheme }) => {
   const animationClass = "animate__animated animate__fadeInUp";
@@ -14,9 +15,11 @@ const Header = ({ onToggleTheme }) => {
   return (
     <div className="Header">
       <div>
-        <h1 {...getAnimationDelay(0)}>
-          <small>$</small> moses poston
-        </h1>
+        <Link to={"/"}>
+          <h1 {...getAnimationDelay(0)}>
+            <small>$</small> moses poston
+          </h1>
+        </Link>
         <h5 {...getAnimationDelay(0.1)}>{">"} Full-Stack Developer</h5>
         <h5 {...getAnimationDelay(0.2)}>{">"} Designer</h5>
       </div>
