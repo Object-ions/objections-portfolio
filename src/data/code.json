@@ -15,7 +15,11 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly_Belly_Wiki_Client",
-    "images": ["/images/JBW-client-1.png", "/images/JBW-client-2.png"]
+    "videos": ["/images/jbw-client/JBW-client-video.mov"],
+    "images": [
+      "/images/jbw-client/JBW-client-1.png",
+      "/images/jbw-client/JBW-client-2.png"
+    ]
   },
   {
     "item-id": 2,
@@ -32,7 +36,8 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API",
-    "images": ["/images/JBW-api-1.png", "/images/JBW-api-2.png"]
+    "videos": ["/images/jbw-client/JBW-api-video.mov"],
+    "images": ["/images/jbw-api/JBW-api-1.png", "/images/jbw-api/JBW-api-2.png"]
   },
   {
     "item-id": 3,
@@ -43,11 +48,15 @@
       "Selenium WebDriver",
       "BeautifulSoup",
       "JSON",
-      "Artificial Intelligence (AI - ChatGPT 4)"
+      "AI - ChatGPT 4"
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API-Data-Collection",
-    "images": ["/images/JBW-scrape-1.png", "/images/JBW-scrape-2.png"]
+    "videos": [],
+    "images": [
+      "/images/jbw-scrape/JBW-scrape-1.png",
+      "/images/jbw-scrape/JBW-scrape-2.png"
+    ]
   },
   {
     "item-id": 4,
@@ -56,7 +65,8 @@
     "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
     "live": "",
     "github": "https://github.com/Object-ions/Coffee-Inventory-Tracker",
-    "images": ["/images/coffee-1.png", "/images/coffee-2.png"]
+    "videos": ["/images/coffee/coffee-video.mov"],
+    "images": ["/images/coffee/coffee-1.png", "/images/coffee/coffee-2.png"]
   },
   {
     "item-id": 5,
@@ -73,6 +83,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/AnimalShelter.Solution",
+    "videos": [],
     "images": []
   },
   {
@@ -93,6 +104,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Eol.Solution",
+    "videos": [],
     "images": [
       "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/login-d.png",
       "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/eol-chat.png"
@@ -112,6 +124,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/SST.Solution",
+    "videos": [],
     "images": []
   },
   {
@@ -127,6 +140,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Factory.Solution",
+    "videos": [],
     "images": []
   },
   {
@@ -146,6 +160,7 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/HairSalon.Solution",
+    "videos": [],
     "images": []
   },
   {
@@ -155,7 +170,8 @@
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": "",
     "github": "https://github.com/Object-ions/PierresBakery",
-    "images": []
+    "videos": ["/images/pierre-console/pierre-video.mov"],
+    "images": ["/images/pierre-console/pierre-1.png"]
   },
   {
     "item-id": 11,
@@ -164,6 +180,7 @@
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": "",
     "github": "https://github.com/Object-ions/PierresVendorOrderTracker.Solution",
+    "videos": [],
     "images": []
   },
   {
@@ -173,7 +190,11 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "live": "",
     "github": "https://github.com/Object-ions/Pig-Dice?tab=readme-ov-file",
-    "images": []
+    "videos": ["/images/pig-dice/pig-dice-video.mov"],
+    "images": [
+      "/images/pig-dice/pig-dice-1.png",
+      "/images/pig-dice/pig-dice-2.png"
+    ]
   },
   {
     "item-id": 13,
@@ -191,7 +212,8 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Plant-Professor",
-    "images": []
+    "videos": ["/images/plant-api/plant-video.mov"],
+    "images": ["/images/plant-api/plant-1.png", "/images/plant-api/plant-2.png"]
   },
   {
     "item-id": 14,
@@ -208,6 +230,20 @@
     ],
     "live": "",
     "github": "https://github.com/Object-ions/Currency-Exchanger",
-    "images": []
+    "videos": ["/images/exchange/exchange-video.mov"],
+    "images": [
+      "/images/exchange/exchange-1.png",
+      "/images/exchange/exchange-2.png"
+    ]
+  },
+  {
+    "item-id": 15,
+    "title": "Pizza Parlor",
+    "description": "This project is a detailed, user-friendly interface for creating a custom pizza order that demonstrates real-world functionalities of a pizza ordering system.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "live": "https://object-ions.github.io/pizzaParlor/",
+    "github": "https://github.com/Object-ions/pizzaParlor",
+    "videos": ["/images/pizza/pizza-video.mov"],
+    "images": ["/images/pizza/pizza-1.png", "/images/pizza/pizza-2.png"]
   }
 ]
