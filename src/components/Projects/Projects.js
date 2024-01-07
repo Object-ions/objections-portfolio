@@ -62,14 +62,25 @@ const ProjectsData = () => {
             ))}
           </div>
 
-          {/* Live Site */}
           <div
             className={`links ${fadeInRight}`}
             style={{ animationDelay: "0.5s" }}
           >
-            {selectedProject["live-site"] && (
+            {/* video */}
+            {selectedProject["videos"] && (
               <a
-                href={selectedProject["live-site"]}
+                href={selectedProject["videos"]}
+                target="blank"
+                className="live-site"
+              >
+                (Video Demo)
+              </a>
+            )}
+
+            {/* Live Site */}
+            {selectedProject["live"] && (
+              <a
+                href={selectedProject["live"]}
                 target="blank"
                 className="live-site"
               >
