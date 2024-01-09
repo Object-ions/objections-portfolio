@@ -102,7 +102,7 @@
       "Entity Framework Core Identity 6.0.0",
       "Miro Board"
     ],
-    "live": [],
+    "live": ["https://eol-app.onrender.com/"],
     "github": "https://github.com/Object-ions/Eol.Solution",
     "videos": [],
     "images": [
