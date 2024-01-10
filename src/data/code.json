@@ -124,8 +124,8 @@
     ],
     "live": ["https://pierres-sweet-and-savory-treats.onrender.com"],
     "github": "https://github.com/Object-ions/SST.Solution",
-    "videos": [],
-    "images": []
+    "videos": ["/images/pig-dice/sst-video.mov"],
+    "images": ["/images/pig-dice/sst-1.png", "/images/pig-dice/sst-2.png"]
   },
   {
     "item-id": 8,
