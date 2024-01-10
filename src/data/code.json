@@ -122,7 +122,7 @@
       "MySQL 8.0.34",
       "Entity Framework Core 6.0.0"
     ],
-    "live": [],
+    "live": ["https://pierres-sweet-and-savory-treats.onrender.com"],
     "github": "https://github.com/Object-ions/SST.Solution",
     "videos": [],
     "images": []
