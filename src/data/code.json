@@ -34,7 +34,7 @@
       "Postman",
       "Swagger"
     ],
-    "live": [],
+    "live": ["https://jellybellywikiapi.onrender.com/swagger/index.html"],
     "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API",
     "videos": ["/images/jbw-client/JBW-api-video.mov"],
     "images": ["/images/jbw-api/JBW-api-1.png", "/images/jbw-api/JBW-api-2.png"]
@@ -60,10 +60,10 @@
   },
   {
     "item-id": 4,
-    "title": "Coffee Shop Inventory",
+    "title": "Coffee Inventory Tracker",
     "description": "This React application manages a coffee inventory. Users can add new burlap sacks of coffee, view details of each coffee type, edit coffee details, and sell coffee by the pound. Each sack of coffee displays its name, origin, roast type, weight, and price.",
     "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
-    "live": [],
+    "live": ["https://coffee-inventory-tracker.netlify.app"],
     "github": "https://github.com/Object-ions/Coffee-Inventory-Tracker",
     "videos": ["/images/coffee/coffee-video.mov"],
     "images": ["/images/coffee/coffee-1.png", "/images/coffee/coffee-2.png"]
