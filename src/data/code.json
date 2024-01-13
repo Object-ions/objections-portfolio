@@ -128,7 +128,7 @@
     "images": ["/images/sst/sst-1.png", "/images/sst/sst-2.png"]
   },
   {
-    "item-id": 10,
+    "item-id": 8,
     "title": "Pierre's Bakery - Console App",
     "description": "This console application helps customers place their orders and calculate the total cost. Pierre's Bakery offers special deals on bread loaves and pastries. Price for bread: 5$ for a loaf or buy 2 get 1 free. Price for pastry: 2$ for a piece or buy 3 get 1 free. The app features intuitive UI design to provide a clear user experience.",
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
@@ -138,7 +138,7 @@
     "images": ["/images/pierre-console/pierre-1.png"]
   },
   {
-    "item-id": 11,
+    "item-id": 9,
     "title": "Vendor Order Tracker",
     "description": "The Vendor Order Management System is a specialized MVC web application developed using .NET. It is engineered to facilitate the management and tracking of orders from various vendors. This application stands out for its functionality and utility in simplifying complex vendor interactions. The application's features include the ability to add and manage vendors, track orders for each vendor, view detailed information about each order, and an aesthetic user interface for easy navigation and management.",
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
@@ -148,7 +148,7 @@
     "images": ["/images/vendors/vendors-1.png", "/images/vendors/vendors-2.png"]
   },
   {
-    "item-id": 12,
+    "item-id": 10,
     "title": "Pig Dice Game",
     "description": "The Pig Dice Game is an interactive, two-player dice game created using HTML, CSS, and JavaScript. The game is designed to test your luck as you compete against another player to reach a total score of 100 points first. The application keeps track of the scores for each player, and the state of the game, providing an engaging and dynamic user experience. in this version, I've added new functionalities and revamped the UI to provide an even more engaging and dynamic user experience.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "item-id": 13,
+    "item-id": 11,
     "title": "Plant Professor",
     "description": "Plant Professor is a reimagined version of the original project, with a focus on enhancing the user interface. Originally contributing to the backend of the initial project, my background as a former designer compelled me to revisit the frontend. This redesigned version embodies my journey to polish the design, improve the overall user experience, and enrich my CSS expertise while integrating additional UI utilities.",
     "tags": [
@@ -180,7 +180,7 @@
     "images": ["/images/plant-api/plant-1.png", "/images/plant-api/plant-2.png"]
   },
   {
-    "item-id": 14,
+    "item-id": 12,
     "title": "Currency Converter",
     "description": "Currency Converter is a simple web application that allows users to convert between different currencies. It fetches the most up-to-date exchange rates from the ExchangeRate-API.",
     "tags": [
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "item-id": 15,
+    "item-id": 13,
     "title": "Pizza Parlor",
     "description": "This project is a detailed, user-friendly interface for creating a custom pizza order that demonstrates real-world functionalities of a pizza ordering system.",
     "tags": ["HTML", "CSS", "JavaScript"],
