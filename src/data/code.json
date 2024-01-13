@@ -175,10 +175,10 @@
   },
   {
     "item-id": 11,
-    "title": "Bakery - Vendor Order Tracker",
-    "description": "An MVC web application built in .NET to manage and track orders from different vendors.",
+    "title": "Vendor Order Tracker",
+    "description": "The Vendor Order Management System is a specialized MVC web application developed using .NET. It is engineered to facilitate the management and tracking of orders from various vendors. This application stands out for its functionality and utility in simplifying complex vendor interactions. The application's features include the ability to add and manage vendors, track orders for each vendor, view detailed information about each order, and an aesthetic user interface for easy navigation and management.",
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
-    "live": [],
+    "live": ["https://vendorordertracker.onrender.com/"],
     "github": "https://github.com/Object-ions/PierresVendorOrderTracker.Solution",
     "videos": [],
     "images": []
