@@ -82,7 +82,7 @@ const Resume = () => {
         className="resume animate__animated animate__fadeInUp"
         style={{ animationDelay: `${(education.length + 3) * 0.1}s` }}
       >
-        <a href="https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link">
+        <a href="https://drive.google.com/file/d/1sXeOtBsyWzf7daNvbpPvVvp1umpgK2nn/view?usp=drive_link">
           Download Full Resume
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </a>

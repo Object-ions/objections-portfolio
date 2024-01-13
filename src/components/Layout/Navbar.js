@@ -17,7 +17,7 @@ const Navbar = () => {
   const externalLinks = [
     {
       name: "(Resume)",
-      path: "https://drive.google.com/file/d/1qk-9EA4skllEc-YOY5RXlFSo4yueWUVM/view?usp=drive_link",
+      path: "https://drive.google.com/file/d/1sXeOtBsyWzf7daNvbpPvVvp1umpgK2nn/view?usp=drive_link",
     },
     { name: "(GitHub)", path: "https://github.com/Object-ions" },
     { name: "(LinkedIn)", path: "https://www.linkedin.com/in/moses-a-p/" },
