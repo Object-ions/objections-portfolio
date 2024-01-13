@@ -83,8 +83,11 @@
     ],
     "live": ["https://animal-shelter-api.onrender.com/"],
     "github": "https://github.com/Object-ions/AnimalShelter.Solution",
-    "videos": [],
-    "images": []
+    "videos": ["/images/animal-shelter/animal-video.png"],
+    "images": [
+      "/images/animal-shelter/animal-1.png",
+      "/images/animal-shelter/animal-2.png"
+    ]
   },
   {
     "item-id": 6,
@@ -104,16 +107,13 @@
     ],
     "live": ["https://eol-app.onrender.com/"],
     "github": "https://github.com/Object-ions/Eol.Solution",
-    "videos": [],
-    "images": [
-      "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/login-d.png",
-      "https://github.com/sethgonzales/Eol.Solution/raw/main/Eol/wwwroot/img/eol-chat.png"
-    ]
+    "videos": ["/images/eol/eol-video.png"],
+    "images": ["/images/eol/eol-1.png", "/images/eol/eol-2.png"]
   },
   {
     "item-id": 7,
     "title": "Pierre's Treats Management System",
-    "description": "This web application designed for Pierre to showcase his collection of delightful treats. The application emphasizes user experience, complete with an authentication system and a many-to-many relationship between treats and flavors.",
+    "description": "This web application designed for Pierre to showcase his collection of treats. The application emphasizes user experience, complete with an authentication system and a many-to-many relationship between treats and flavors.",
     "tags": [
       "HTML",
       "C#",
@@ -126,42 +126,6 @@
     "github": "https://github.com/Object-ions/SST.Solution",
     "videos": ["/images/sst/sst-video.mov"],
     "images": ["/images/sst/sst-1.png", "/images/sst/sst-2.png"]
-  },
-  {
-    "item-id": 8,
-    "title": "Factory Management System",
-    "description": "This web application will allow the user, a factory manager, to manage machines and engineers in a factory environment.",
-    "tags": [
-      "HTML",
-      "C#",
-      "CSS",
-      "ASP.NET Core MVC 6.0.0",
-      "Entity Framework Core 6.0.0"
-    ],
-    "live": [],
-    "github": "https://github.com/Object-ions/Factory.Solution",
-    "videos": [],
-    "images": []
-  },
-  {
-    "item-id": 9,
-    "title": "Claire Hair Salon Management System",
-    "description": "This application provides a platform for Claire (the user) to monitor her employees (stylists) and their respective clients. The user can search for clients by their stylist, or otherwise search through a list of all their clients.",
-    "tags": [
-      "C#",
-      ".NET 6",
-      "ASP.NET Core MVC",
-      "Entity Framework Core",
-      "ASP.NET Core MVC 6.0",
-      "MySQL",
-      "MySQL Workbench",
-      "HTML",
-      "CSS"
-    ],
-    "live": [],
-    "github": "https://github.com/Object-ions/HairSalon.Solution",
-    "videos": [],
-    "images": []
   },
   {
     "item-id": 10,
@@ -180,8 +144,8 @@
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
     "live": ["https://vendorordertracker.onrender.com/"],
     "github": "https://github.com/Object-ions/PierresVendorOrderTracker.Solution",
-    "videos": [],
-    "images": []
+    "videos": ["/images/vendors/vendors-video.png"],
+    "images": ["/images/vendors/vendors-1.png", "/images/vendors/vendors-2.png"]
   },
   {
     "item-id": 12,
