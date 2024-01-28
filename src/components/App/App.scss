@@ -1,5 +1,5 @@
-@import "../../scss/variables";
-@import "../../scss/mixins";
+@import '../../scss/variables';
+@import '../../scss/mixins';
 
 * {
   box-sizing: border-box;
@@ -150,7 +150,7 @@ ul {
     }
 
     .Design {
-      background: url($dark-image-path) no-repeat center center;
+      // background: url($dark-image-path) no-repeat center center;
     }
 
     #dark-mode {
@@ -281,7 +281,7 @@ ul {
     }
 
     .Design {
-      background: url($light-image-path) no-repeat center center;
+      // background: url($light-image-path) no-repeat center center;
     }
 
     #light-mode {
@@ -305,7 +305,7 @@ ul {
     }
   }
 
-  @include respond-to("mobile") {
+  @include respond-to('mobile') {
     // background: red !important;
 
     .Layout {
@@ -406,7 +406,7 @@ ul {
       }
     }
   }
-  @include respond-to("tablet") {
+  @include respond-to('tablet') {
     // background: blue !important;
 
     .Layout {
@@ -475,7 +475,7 @@ ul {
       }
     }
   }
-  @include respond-to("desktop") {
+  @include respond-to('desktop') {
     // background: green !important;
 
     .Layout {
