@@ -1,25 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@100;200;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@100;200;300&display=swap');
 
 @font-face {
-  font-family: "pickle";
-  src: url("../fonts/Pickle.otf") format("opentype");
+  font-family: 'pickle';
+  src: url('../fonts/Pickle.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 // Dark theme
-$dark-bg-color: #1c1c1c;
+$dark-bg-color: #111;
 $dark-text-color: #fff;
 $dark-special-color: #41e0d0;
 
-$dark-image-path: "../../../public/images/ascii-dark.png";
+$dark-image-path: '../../../public/images/ascii-dark.png';
 
 // Light theme
 $light-bg-color: #e0e0e0;
 $light-text-color: #000;
 $light-special-color: #2c4bf5;
 
-$light-image-path: "../../../public/images/ascii-light.png";
+$light-image-path: '../../../public/images/ascii-light.png';
 
 // Special colors
 $error: #f2994a;
@@ -30,6 +30,6 @@ $dark-border: #424242;
 $max-width: 1400px;
 
 // Fonts
-$font-text: "Lato", sans-serif;
-$font-symbols: "Roboto Mono", monospace;
-$font-special: "pickle";
+$font-text: 'Lato', sans-serif;
+$font-symbols: 'Roboto Mono', monospace;
+$font-special: 'pickle';
