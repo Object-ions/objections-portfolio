@@ -1,26 +1,26 @@
-import React from "react";
-import "./Navbar.scss";
-import { Link } from "react-router-dom";
-import "animate.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import './Navbar.scss';
+import { Link } from 'react-router-dom';
+import 'animate.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const navItems = [
-    { name: "> Home", path: "/", isExternal: false },
-    { name: "> About", path: "/about", isExternal: false },
-    { name: "> Projects", path: "/projects", isExternal: false },
-    { name: "> Design", path: "/design", isExternal: false },
-    { name: "> Resume", path: "/resume", isExternal: false },
-    { name: "> Contact", path: "/contact", isExternal: false },
+    { name: '> Home', path: '/', isExternal: false },
+    { name: '> About', path: '/about', isExternal: false },
+    { name: '> Projects', path: '/projects', isExternal: false },
+    // { name: "> Design", path: "/design", isExternal: false },
+    // { name: '> Resume', path: '/resume', isExternal: false },
+    { name: '> Contact', path: '/contact', isExternal: false },
   ];
 
   const externalLinks = [
     {
-      name: "(Resume)",
-      path: "https://drive.google.com/file/d/1sXeOtBsyWzf7daNvbpPvVvp1umpgK2nn/view?usp=drive_link",
+      name: '(Resume)',
+      path: 'https://drive.google.com/file/d/1sXeOtBsyWzf7daNvbpPvVvp1umpgK2nn/view?usp=drive_link',
     },
-    { name: "(GitHub)", path: "https://github.com/Object-ions" },
-    { name: "(LinkedIn)", path: "https://www.linkedin.com/in/moses-a-p/" },
+    { name: '(GitHub)', path: 'https://github.com/Object-ions' },
+    { name: '(LinkedIn)', path: 'https://www.linkedin.com/in/moses-a-p/' },
   ];
 
   return (
