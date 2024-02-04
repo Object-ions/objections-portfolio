@@ -39,7 +39,8 @@ const App = () => {
             path="/"
             element={<Layout theme={theme} onToggleTheme={toggleTheme} />}
           >
-            <Route index element={<Home />} />
+            {/* <Route index element={<Home />} /> */}
+            <Route index element={<Projects />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="projects" element={<Projects />} />

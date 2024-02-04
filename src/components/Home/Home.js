@@ -1,6 +1,5 @@
-import React from "react";
-import "./Home.scss";
-import "animate.css";
+import React from 'react';
+import './Home.scss';
 
 const HeaderPart = ({ text, id, special, delay }) => {
   const style = {
@@ -11,7 +10,7 @@ const HeaderPart = ({ text, id, special, delay }) => {
     <h2
       id={id}
       className={`${
-        special ? "special-font" : ""
+        special ? 'special-font' : ''
       } animate__animated animate__fadeInDown`}
       style={style}
     >
@@ -22,18 +21,12 @@ const HeaderPart = ({ text, id, special, delay }) => {
 
 const Home = () => {
   const headerParts = [
-    "from",
-    "the world",
-    "of",
-    "industrial",
-    "DESIGN",
-    "to",
-    "the dynamic",
-    "realm of",
-    "TECHNOLOGY",
-    "my journey blends creativity",
-    "with tech",
-    "expertise.",
+    'from',
+    'DESIGN',
+    'to',
+    'TECHNOLOGY.',
+    'I am a full-stack developer',
+    'with a sharp eye for details.',
   ];
 
   return (
@@ -43,7 +36,6 @@ const Home = () => {
           key={index}
           text={text}
           id={`header-${index + 1}`}
-          special={index === 3 || index === 4 || index === 8}
           delay={0.5 + 0.3 * index}
         />
       ))}

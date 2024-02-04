@@ -83,30 +83,32 @@
   ],
   "skills": {
     "software": [
-      "Adobe Photoshop",
-      "Illustrator",
-      "InDesign",
-      "XD",
-      "Solidworks",
-      "Rhinoceros 3D",
-      "Keyshot",
-      "VSCode",
-      "Postman"
-    ],
-    "programming": [
       "HTML",
       "CSS",
+      "SASS",
       "JavaScript",
-      "JQuery",
-      "GitHub",
-      "BASH",
+      "React",
+      "Redux",
+      "Bootstrap",
+      "Webpack",
+      "Jest",
       "C#",
       "ASP.NET",
+      "Git",
+      "JQuery",
       "MySQL",
       "NoSQL",
       "Firebase",
-      "React",
-      "Redux"
+      "BASH",
+      "Postman",
+      "Adobe Photoshop",
+      "Illustrator",
+      "InDesign",
+      "XD (Wireframing)",
+      "Solidworks",
+      "Rhinoceros 3D",
+      "Keyshot",
+      "VSCode"
     ]
   }
 }

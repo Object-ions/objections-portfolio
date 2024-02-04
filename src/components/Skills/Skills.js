@@ -1,10 +1,11 @@
-import React from "react";
-import "animate.css";
+import React from 'react';
+import 'animate.css';
+import './Skills.scss';
 
-import resumeData from "../../data/resume.json";
+import resumeData from '../../data/resume.json';
 
 const Skills = () => {
-  const { software, programming } = resumeData.skills;
+  const { software } = resumeData.skills;
 
   const renderSkills = (skills, animationDelayStart) => (
     <div className="tags">
@@ -20,12 +21,7 @@ const Skills = () => {
     </div>
   );
 
-  return (
-    <div>
-      {renderSkills(software, 0)}
-      {renderSkills(programming, 0)}
-    </div>
-  );
+  return <div className="Skills">{renderSkills(software, 0)}</div>;
 };
 
 export default Skills;

@@ -1,5 +1,5 @@
-@import "../../scss/mixins";
-@import "../../scss/variables";
+@import '../../scss/mixins';
+@import '../../scss/variables';
 
 .Layout {
   display: flex;
@@ -17,12 +17,6 @@
     .Navbar {
       width: 200px;
       flex-shrink: 0;
-    }
-
-    .page {
-      flex-grow: 1;
-      display: flex;
-      justify-content: center;
     }
   }
 }

@@ -1,10 +1,10 @@
-import React from "react";
-import "./Header.scss";
-import "animate.css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './Header.scss';
+import 'animate.css';
+import { Link } from 'react-router-dom';
 
 const Header = ({ onToggleTheme }) => {
-  const animationClass = "animate__animated animate__fadeInUp";
+  const animationClass = 'animate__animated animate__fadeInUp';
 
   // Animate the header with 0.1 sec delay
   const getAnimationDelay = (delaySec) => {
@@ -15,15 +15,15 @@ const Header = ({ onToggleTheme }) => {
   return (
     <div className="Header">
       <div>
-        <Link to={"/"}>
+        <Link to={'/'}>
           <h1 {...getAnimationDelay(0)}>
             <small>$</small> moses poston
           </h1>
         </Link>
-        <h5 {...getAnimationDelay(0.1)}>{">"} Full-Stack Developer</h5>
-        <h5 {...getAnimationDelay(0.2)}>{">"} Designer</h5>
+        <h5 {...getAnimationDelay(0.1)}>{'>'} Full-Stack Developer</h5>
+        <h5 {...getAnimationDelay(0.2)}>{'>'} Designer</h5>
       </div>
-      <div
+      {/* <div
         {...getAnimationDelay(0.3)}
         className={`mode-control ${animationClass}`}
       >
@@ -39,7 +39,7 @@ const Header = ({ onToggleTheme }) => {
           onClick={() => onToggleTheme("light")}
         ></div>
         <p>Light</p>
-      </div>
+      </div> */}
     </div>
   );
 };

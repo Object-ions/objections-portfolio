@@ -41,7 +41,7 @@ ul {
   transition: background-color 0.3s, color 0.3s;
 
   &.dark {
-    background: $dark-bg-color;
+    // background: $dark-bg-color;
     color: $dark-text-color;
 
     a {
@@ -158,12 +158,12 @@ ul {
       border: 1px solid $dark-special-color;
     }
 
-    #header-4,
-    #header-5 {
-      color: transparent;
-      -webkit-text-stroke: 1px $dark-special-color;
-      text-stroke: 1px $dark-special-color;
-    }
+    // #header-4,
+    // #header-5 {
+    //   color: transparent;
+    //   -webkit-text-stroke: 1px $dark-special-color;
+    //   text-stroke: 1px $dark-special-color;
+    // }
   }
 
   &.light {
