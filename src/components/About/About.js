@@ -15,14 +15,12 @@ const About = () => {
       <Home />
       <div
         className="About animate__animated animate__fadeInRight"
-        style={{ animationDelay: '4.5s' }}
+        style={{ animationDelay: '2.5s' }}
       >
         <h3>Hi, my name is Moses</h3>
         {paragraphs.map((content) => (
           <p>{content}</p>
         ))}
-        {/* <p>My expertise includes:</p> */}
-        {/* <Skills /> */}
       </div>
     </>
   );
