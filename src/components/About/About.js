@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.scss';
-// import Skills from '../Skills/Skills';
 import Home from '../Home/Home';
 
 const About = () => {
@@ -11,10 +10,10 @@ const About = () => {
   ];
 
   return (
-    <>
+    <div className="meta-about">
       <Home />
       <div
-        className="About animate__animated animate__fadeInRight"
+        className="About animate__animated animate__fadeInDown"
         style={{ animationDelay: '2.5s' }}
       >
         <h3>Hi, my name is Moses</h3>
@@ -22,7 +21,7 @@ const About = () => {
           <p>{content}</p>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
