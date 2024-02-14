@@ -60,13 +60,16 @@
   },
   {
     "item-id": 4,
-    "title": "Coffee Inventory Tracker",
-    "description": "This React application manages a coffee inventory. Users can add new burlap sacks of coffee, view details of each coffee type, edit coffee details, and sell coffee by the pound. Each sack of coffee displays its name, origin, roast type, weight, and price.",
-    "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
-    "live": ["https://coffee-inventory-tracker.netlify.app"],
-    "github": "https://github.com/Object-ions/Coffee-Inventory-Tracker",
-    "videos": ["/images/coffee/coffee-video.mov"],
-    "images": ["/images/coffee/coffee-1.png", "/images/coffee/coffee-2.png"]
+    "title": "Birth of Venus",
+    "description": "This React application provides an interactive exploration of the art piece - Birth of Venus, by Sandro Botticelli. Focusing on the detailed annotations and examination of the artwork. It includes a web-based interface allowing users to learn about the historical and artistic significance of the piece.",
+    "tags": ["React", "JavaScript", "HTML", "SASS", "Webpack"],
+    "live": ["https://birth-of-venus.netlify.app/"],
+    "github": "https://github.com/Object-ions/birth-of-venus",
+    "videos": ["/images/birth-of-venus/venus-video.mov"],
+    "images": [
+      "/images/birth-of-venus/venus-1.png",
+      "/images/birth-of-venus/venus-2.png"
+    ]
   },
   {
     "item-id": 5,
