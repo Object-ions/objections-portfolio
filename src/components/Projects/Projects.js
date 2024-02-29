@@ -66,17 +66,6 @@ const ProjectsData = () => {
             className={`links ${fadeInRight}`}
             style={{ animationDelay: '0.5s' }}
           >
-            {/* video */}
-            {selectedProject['videos'] && (
-              <a
-                href={selectedProject['videos']}
-                target="blank"
-                className="live-site"
-              >
-                (Video Demo)
-              </a>
-            )}
-
             {/* Live Site */}
             {selectedProject['live'] && (
               <a
@@ -96,6 +85,17 @@ const ProjectsData = () => {
                 className="github"
               >
                 (GitHub Repo)
+              </a>
+            )}
+
+            {/* video */}
+            {selectedProject['videos'] && (
+              <a
+                href={selectedProject['videos']}
+                target="blank"
+                className="live-site"
+              >
+                (Video Demo)
               </a>
             )}
           </div>

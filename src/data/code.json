@@ -2,12 +2,15 @@
   {
     "item-id": 1,
     "title": "Feedback App",
-    "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. The application features a clean and intuitive user interface and uses context to manage state within the application.",
+    "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. Featuring full CRUD functionality, the application has a clean and intuitive user interface and uses context to manage state within the application.",
     "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
     "live": ["https://feedback-app-m-a.netlify.app/"],
     "github": "https://github.com/Object-ions/feedback-app",
-    "videos": [""],
-    "images": ["", ""]
+    "videos": ["/images/feedback-app/feedback-video.mov"],
+    "images": [
+      "/images/feedback-app/feedback-1.png",
+      "/images/feedback-app/feedback-2.png"
+    ]
   },
   {
     "item-id": 2,
