@@ -2,8 +2,8 @@
   {
     "item-id": 1,
     "title": "Feedback App",
-    "description": "This React application provides an interactive exploration of the art piece - Birth of Venus, by Sandro Botticelli. Focusing on the detailed annotations and examination of the artwork. It includes a web-based interface allowing users to learn about the historical and artistic significance of the piece.",
-    "tags": ["React", "JavaScript", "HTML", "SASS", "Webpack"],
+    "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. The application features a clean and intuitive user interface and uses context to manage state within the application.",
+    "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
     "live": ["https://feedback-app-m-a.netlify.app/"],
     "github": "https://github.com/Object-ions/feedback-app",
     "videos": [""],
