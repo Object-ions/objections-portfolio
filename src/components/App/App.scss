@@ -37,11 +37,9 @@ ul {
 
 .App {
   margin: 0 auto;
-  // height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 
   &.dark {
-    // background: $dark-bg-color;
     color: $dark-text-color;
 
     a {
@@ -164,145 +162,6 @@ ul {
     //   -webkit-text-stroke: 1px $dark-special-color;
     //   text-stroke: 1px $dark-special-color;
     // }
-  }
-
-  &.light {
-    background: $light-bg-color;
-    color: $light-special-color;
-    border: 1px solid $special-orange;
-
-    a {
-      color: $special-orange;
-
-      &:hover {
-        color: #fff;
-        background: $special-orange;
-      }
-    }
-
-    .Layout {
-      // border: 1px solid $special-orange;
-    }
-
-    .About {
-      .tag {
-        background-color: $special-orange;
-        color: #fff;
-      }
-    }
-
-    .Header {
-      h1:hover,
-      h5:hover {
-        cursor: crosshair;
-        color: $special-orange;
-      }
-    }
-
-    .Contact {
-      .contact-form {
-        form {
-          ul {
-            li {
-              input,
-              textarea {
-                border: 1px solid $special-orange;
-              }
-            }
-          }
-
-          .flat-button {
-            background-color: $special-orange;
-            color: $light-bg-color;
-
-            &:hover {
-              background-color: lighten($special-orange, 10%);
-            }
-          }
-        }
-      }
-    }
-
-    .Projects {
-      .project-list {
-        ul {
-          li button {
-            color: $light-special-color;
-
-            &::before {
-              background-color: $special-orange;
-            }
-          }
-        }
-      }
-
-      .item {
-        hr {
-          border: 0.5px solid $special-orange;
-        }
-      }
-
-      .tags {
-        .tag {
-          background: none;
-          border: 1px solid $special-orange;
-          color: $special-orange;
-
-          &:hover {
-            background: $special-orange;
-            border: 1px solid $special-orange;
-            color: $light-bg-color;
-          }
-        }
-      }
-    }
-
-    .Resume {
-      ul {
-        li {
-          color: lighten($light-special-color, 15%);
-        }
-      }
-
-      hr {
-        border: 1px solid $special-orange;
-      }
-
-      .about {
-        p {
-          color: $light-special-color;
-          margin-right: 5rem;
-        }
-      }
-
-      a {
-        color: $special-orange;
-      }
-    }
-
-    .Design {
-      // background: url($light-image-path) no-repeat center center;
-    }
-
-    #light-mode {
-      background: $special-orange;
-      border-color: $special-orange;
-
-      &:hover {
-        color: $special-orange;
-      }
-    }
-
-    #dark-mode {
-      border: 1px solid $light-special-color;
-    }
-
-    #header-4,
-    #header-5 {
-      color: transparent;
-      -webkit-text-stroke: 1px $special-orange;
-      text-stroke: 1px $special-orange;
-    }
   }
 
   @include respond-to('mobile') {

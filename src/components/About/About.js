@@ -4,9 +4,7 @@ import Home from '../Home/Home';
 
 const About = () => {
   const paragraphs = [
-    "I'm a Full-Stack Developer with a blend of skills in programming and design.",
-    "With a Bachelor's degree in Industrial Design, I bring a creative approach to programming.",
-    "My proficiency extends to integrating AI solutions, underlining my commitment to innovation in technology. I'm a proven leader, adept at problem-solving and creating impactful technological solutions.",
+    'Full-Stack developer and designer. Dynamic and highly-motivated, forward-thinking and adaptable to new technologies with a strong design background. A collaborative team player with excellent problem-solving skills and a sharp eye for detail and accuracy in execution. I thrive in environments where juggling multiple tasks and projects is the norm, and I find motivation in working under pressure. Equipped with diverse work experience, I am a self-starter and eager to expand my knowledge, constantly seeking new challenges and opportunities to grow.',
   ];
 
   return (
