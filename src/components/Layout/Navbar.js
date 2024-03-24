@@ -6,12 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const navItems = [
-    // { name: '> Home', path: '/', isExternal: false },
     { name: '> About', path: '/about', isExternal: false },
-    { name: '> Projects', path: '/projects', isExternal: false },
-    // { name: "> Design", path: "/design", isExternal: false },
-    // { name: '> Resume', path: '/resume', isExternal: false },
-    // { name: '> Contact', path: '/contact', isExternal: false },
+    { name: '> Programming', path: '/projects', isExternal: false },
+    { name: '> Designing', path: '/design', isExternal: false },
   ];
 
   const externalLinks = [

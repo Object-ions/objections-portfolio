@@ -147,23 +147,12 @@ ul {
       }
     }
 
-    .Design {
-      // background: url($dark-image-path) no-repeat center center;
-    }
-
     #dark-mode {
       background: $dark-special-color;
       border: 1px solid $dark-special-color;
     }
-
-    // #header-4,
-    // #header-5 {
-    //   color: transparent;
-    //   -webkit-text-stroke: 1px $dark-special-color;
-    //   text-stroke: 1px $dark-special-color;
-    // }
   }
-
+  /*
   @include respond-to('mobile') {
     // background: red !important;
 
@@ -379,4 +368,5 @@ ul {
       }
     }
   }
+  */
 }
