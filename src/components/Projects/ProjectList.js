@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.scss'; // Assuming you have styling here that applies
+import './Projects.scss';
 
 const ProjectList = ({ projects, onProjectClick }) => {
   const fadeInRight = 'animate__animated animate__fadeInRight';

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Projects.scss'; // Assuming you have styling here that applies
+import './Projects.scss';
 
 const SelectedProject = ({ project }) => {
-  if (!project) return null; // Don't render anything if there's no project
+  if (!project) return null;
 
   const fadeInRight = 'animate__animated animate__fadeInRight';
 
