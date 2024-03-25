@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ProjectList from './ProjectList'; // Import the new component
-import SelectedProject from './SelectedProject'; // Import the new component
+import ProjectList from './ProjectList';
+import SelectedProject from './SelectedProject';
 import DataCode from '../../data/code.json';
 
 const ProjectsData = () => {
