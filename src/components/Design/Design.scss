@@ -1,19 +1,109 @@
 @import "../../scss/variables";
 
-.Design {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.Projects {
+  margin-top: 1rem;
+  margin-right: 5rem;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 3rem;
+  align-items: center;
+  align-content: space-around;
 
-  height: 100%;
-  width: 100%;
-
-  .color {
-    color: $special-orange;
-  }
-  p {
+  h2 {
     font-family: $font-symbols;
-    z-index: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-list {
+    ul {
+      list-style: none;
+
+      li button {
+        font-family: $font-symbols;
+        padding-bottom: 0.2rem;
+        background: none;
+        border: none;
+        cursor: crosshair;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 0.1rem;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -0.1rem;
+          width: 0;
+          height: 0.1rem;
+          background-color: $dark-special-color;
+          transition: width 0.3s linear;
+        }
+
+        &:hover::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .item {
+    font-family: $font-symbols;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    hr {
+      border: 0.5px solid $dark-special-color;
+    }
+
+    p {
+      vertical-align: center;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.5rem;
+
+      .tag {
+        background-color: $dark-special-color;
+        color: $dark-bg-color;
+        border-radius: 0.2rem;
+        padding: 0.2rem 0.3rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: space-between;
+
+      a {
+        padding: 0.25rem;
+      }
+    }
+
+    .image-wrapper {
+      display: flex;
+      gap: 0.5rem;
+
+      a {
+        transition: transform 0.3s ease;
+
+        &:hover {
+          background: none;
+          transform: scale(0.9);
+        }
+      }
+
+      .single-image {
+        max-width: 100%;
+        display: block;
+      }
+    }
   }
 }
