@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "name": "your-inal",
+    "type": "product",
+    "min-description": "The Urban Urinal elevates a public necessity into an art form, blending strong materials and innovative design to offer a functional, aesthetic experience in urban environments.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "An urban urinal for men",
+    "description": "",
+    "body": {
+      "p-1": {
+        "title": "Purpose/Intent:",
+        "body": "Within urban landscapes, public restrooms carry unsavory connotations. The Urban Luminary Urinal reimagines this narrative, transforming a societal necessity into a design-centric masterpiece. It brings the primal act of urination from shadowy recesses to the spotlight of metropolitan centers, marrying form with function."
+      },
+      "p-2": {
+        "title": "Design Description:",
+        "body": [
+          "Spatial Dynamics: The circular construct offers an intimate sanctuary in the midst of bustling city life. It's more than a restroom; it's an experiential space.",
+
+          "Material Interplay: The base, rendered in opaque concrete, marries urban continuity with durability. The adjacent drain, crafted from HELIX polymer, boasts a hexagonal design ensuring swift drainage and odor containment.",
+
+          "Structural Aesthetics: Armored glass resists elemental onslaughts, while Corten steel profiles, with their strategic bend, ensure privacy. These profiles, ranging from 30cm to 110cm, transform the urinal into a living sculpture.",
+
+          "Natural Elements: Steel rods mimic the organic form of Sansevieria plants, providing an earthy touch. Daylight permeates the structure, acting as a natural disinfectant, while nocturnal LED illumination casts a dramatic, amber-hued glow."
+        ]
+      },
+      "p-3": {
+        "title": "Materials Used:",
+        "body": [
+          "Base: Urban Concrete",
+
+          "Drainage: HELIX Polymer",
+
+          "Shielding: Armored Glass",
+
+          "Profiles: Corten Steel",
+
+          "Lighting: Ambient LED"
+        ]
+      },
+      "p-4": {
+        "title": "Conclusion:",
+        "body": "The Urban Luminary Urinal stands as an emblem for forward-thinking urban locales, blending art with utility. It redefines public spaces, celebrating human nature in its raw essence while exuding design excellence. It's not just about utility but a testament to urban evolution and pride."
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 2,
+    "name": "maritime",
+    "type": "product",
+    "min-description": "Maritime is an elegantly redesigned crab cracker that combines functional strength with a fluid, ocean-inspired aesthetic for an upgraded seafood dining experience.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Maritime",
+    "description": "",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": "For the 'Maritime' crab cracker project, material selection is central to both functionality and design. While the material has not been finalized for this 3D model, envisioning the cracker in a metal such as stainless steel would be apt, given its durability, corrosion resistance, and the sleek finish that aligns with the project's aesthetic goals. Stainless steel's strength ensures that the tool can withstand the force needed to crack a crab shell, which is a critical functional requirement."
+      },
+      "p-2": {
+        "title": "",
+        "body": "The shape, though fluid and organic, takes its cue from the ergonomic needs of the users. By conducting hands-on tests and evaluating the comfort with various palm sizes, the design has been refined to fit comfortably in the user's hand, ensuring ease of use without sacrificing its elegant silhouette. The design does not only mimic the soft lines of marine life but also allows for a natural and firm grip, facilitating the tool's primary function of cracking shells."
+      },
+      "p-3": {
+        "title": "",
+        "body": "'Maritime' is a conceptual project with potential for mass production. The design's balance between form and function suggests that it could be well-received in the market, particularly by establishments that value both utility and the aesthetic presentation of their tableware."
+      },
+      "p-4": {
+        "title": "",
+        "body": "Inspiration for the design was drawn from a variety of shellfish, with particular attention to the flowing lines and smooth surfaces of clams and oysters, as well as the more structural form of crab claws. These elements from the sea have influenced the cracker's design, resulting in a tool that not only resembles sea life but also speaks to the water's elegance, fitting seamlessly into the refined atmosphere of upscale seafood dining."
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 3,
+    "name": "2g - Balloon holder",
+    "type": "product",
+    "min-description": "Maritime is an elegantly redesigned crab cracker that combines functional strength with a fluid, ocean-inspired aesthetic for an upgraded seafood dining experience.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Balloon Holder",
+    "description": "",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": "A balloon weight that allows for weight manipulation,, so the ballon is not bound to a solid surface. Being able to manipulate the weight of the piece allows for the ballon to be closer to a surface or more elevated in the atmosphere making it more malleable to the user and easier for event planners and curators to control the aesthetic they seek to achieve."
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 4,
+    "name": "Acrylic Dream",
+    "type": "product",
+    "min-description": "juxtaposing the transparency of modern acrylic with the nostalgia of a vintage chair sketch, challenging perceptions of materiality and form.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Acrylic Dream",
+    "description": "A chair within my mind does dwell",
+    "body": {
+      "p-1": {
+        "title": "'Convergence of Dualities: The Acrylic Enigma'",
+        "body": [
+          "This project stands at the crossroads of temporal design and artistic commentary, drawing inspiration from Robert Rauschenberg's 'Bed,' as it interrogates the essence of form and function. It challenges traditional notions of a chair, not through a redesign of its form, but through a reframing of its concept.",
+
+          "In this design, transparency is not merely aesthetic but deeply symbolic, utilizing acrylic as a canvas that invites ink but is itself the art. Within this clear, contemporary medium is housed an echo of tradition—a sketched image of an old wooden chair. This duality of design elements provokes thought: it's a visible dichotomy of modernity encapsulating antiquity.",
+
+          "Material choice is pivotal in this narrative, where transparent acrylic juxtaposes the visual representation of a bygone wooden chair, signifying a bridge between generations of design philosophy. It raises the question of materiality—what is the chair's true substance? Is it the tactile acrylic or the visual representation within?",
+
+          "Eschewing the pursuit of comfort and conformity, this chair embodies a conceptual departure from conventional design. It's an artifact that doesn't merely exist for utilitarian purposes but as a statement of design philosophy. It's not designed to fit in but to stand out and encourage reflection.",
+
+          "A one-of-a-kind piece, this chair is an ode to the conceptual undercurrents that run deep within the realms of design and art. It is a meditation on the seen and the unseen, the tangible and the intangible, the physical object, and its philosophical imprint. This chair is not a mere object of rest but a subject of discourse, sitting at the intersection of art and functionality, beckoning the observer to reconsider the chair not just as an object but as an experience, an interaction, an encounter with art itself."
+        ]
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 5,
+    "name": "Maritime Packaging",
+    "type": "packaging",
+    "min-description": "packaging encapsulates a clean and ocean-inspired aesthetic, mirroring the essence of the sea with design elements that allude to maritime life and tools.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Maritime Packaging",
+    "description": "",
+    "body": {
+      "p-1": {
+        "title": "'Convergence of Dualities: The Acrylic Enigma'",
+        "body": [
+          "The design of the 'Maritime' packaging encapsulates a clean and ocean-inspired aesthetic, mirroring the essence of the sea with design elements that allude to maritime life and tools.",
+
+          "Color Palette: The packaging utilizes a cool, muted color palette dominated by blues and whites, suggesting a nautical theme and embodying a sense of calmness associated with the sea.",
+
+          "Illustrative Elements: The use of stylized illustrations, such as the streamlined shape that mimics an oyster, along with other subtly incorporated marine-themed graphics, evoke the product's connection to the ocean.",
+
+          "Typography: The product name 'Maritime' is prominently displayed, presumably with a typeface that complements the sleek and modern design elements, reinforcing the high-quality feel of the product.",
+
+          "Packaging Structure: The flat layout would suggest a simple yet elegant box structure, with well-thought-out placement for branding, product visualization, and information that caters to an upscale market.",
+
+          "Assembled Box Appearance: Upon assembly, the packaging likely presents itself as a refined and minimalist box that lets the product shine, with a design that wraps around seamlessly, portraying continuity and flow reminiscent of ocean currents.",
+
+          "In essence, the 'Maritime' packaging is designed to communicate the product's premium nature and marine inspiration through a serene color scheme and sophisticated design elements, aiming to attract a discerning customer base interested in quality, design, and the sea."
+        ]
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 6,
+    "name": "Creatuweels Package Design",
+    "type": "packaging",
+    "min-description": "The 'Creatuwheels' packaging is a vibrant and geometric celebration of primary colors and shapes, inviting playful interaction and educational exploration for children.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Creatuweels Package Design",
+    "description": "Creatures On Wheels Packaging",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": [
+          "The design for the 'Creatuwheels' packaging showcases a playful and educational approach, in tune with the toy's purpose of teaching basic geometric shapes and allowing for transformation into various vehicle-like structures. The first image is a flat layout of the packaging design, indicating where each element would be placed on the box once assembled, while the second image shows the final product in a 3D view.",
+
+          "Flat Layout Description: Color Blocks: The primary colors used - cyan, magenta, yellow, and also a touch of grey - reflect the fundamental color palette associated with early learning and basic color theory. This choice is directly linked to the basic shapes theme (triangle, rectangle, circle) that the toy is centered around.",
+
+          "Shape Confetti: The triangles scattered across the design in a confetti-like manner represent the basic shapes that can be used to create the toy's various forms. This adds a fun and dynamic aspect to the packaging, hinting at the creativity and variety of play options available.",
+
+          "Iconography: Outlined icons of the 'creatures on wheels' in various configurations adorn the packaging. These geometrically abstracted figures are playful and modern, resonating with both the transformative nature of the toy and its educational purpose.",
+
+          "Typography: The brand name 'CREATUWHEELS' is boldly positioned in the center of the package, with the tagline 'creatures on wheels' underneath, establishing the identity of the product immediately.",
+
+          "Interactive Element: The 'HOME' tab with a circular route represents an interactive element that can resonate with the concept of movement and travel, which is at the heart of the toy's function.",
+
+          "3D Packaged Product Description: Assembled Box Appearance: The design translates into a strikingly vibrant boxed product, with the geometric patterns wrapping around the corners, giving a continuous and flowing feel, symbolic of movement and transformation.",
+
+          "Product Information and Barcode: On one side of the assembled box, there's a clean space reserved for product information and a barcode, ensuring that the practical aspects of product identification and retail requirements are met without disrupting the playful design.",
+
+          "In conclusion, the packaging of 'Creatuwheels' matches the toy's intention to inspire creativity and educate through play. It appeals visually to both children and adults with its bright colors, engaging patterns, and clear display of the toy's concept."
+        ]
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 7,
+    "name": "Le Caprice Memorial Day Promo",
+    "type": "commercial",
+    "min-description": "Designed an interactive Memorial Day promo landing page, news letter and banners, enhancing brand engagement with a patriotic and clean aesthetic.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Le Caprice Memorial Day Promo",
+    "description": "Landing Page, FB and IG ad, News Letter promotion for Memorial Day",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": [
+          "Crafted an immersive landing page for Le Caprice's Memorial Day campaign, highlighting product advantages, promotional offers, and brand value enrichment.",
+
+          "Conceptualized and executed cohesive social media banners for Facebook and Instagram, ensuring visual consistency across platforms.",
+
+          "Composed a curated newsletter for existing clientele to bolster community engagement and loyalty.",
+
+          "Employed a patriotic color palette, harmoniously blending with the Memorial Day theme, eliciting a sense of national pride.",
+
+          "Prioritized clean and modern typography, facilitating readability while reinforcing brand sophistication.",
+
+          "Structured a balanced layout with strategic white space to guide user attention and promote an uncluttered aesthetic.",
+
+          "Incorporated subtle animations and hover effects to add dynamism to the user journey. Selected high-quality imagery to resonate with the premium positioning of the skincare line, fostering trust and desire."
+        ]
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 8,
+    "name": "New Ration - Stationary Design",
+    "type": "commercial",
+    "min-description": "Designed an interactive Memorial Day promo landing page, news letter and banners, enhancing brand engagement with a patriotic and clean aesthetic.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "New Ration - Stationary Design",
+    "description": "",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": [
+          "\"New Ratio\" is a conceptual design studio forged through the collaborative efforts of Naja Schulz and Ron Eisenberg, alongside myself, bringing a fresh perspective to the art of branding. This venture was born out of an academic assignment, where the primary objective was to cultivate a distinctive graphic language that resonates with the studio's ethos. Our journey was split into two pivotal semesters, each with its own set of creative challenges and milestones.",
+          "The first semester was dedicated to the creation of a visual identity that would serve as the studio's heartbeat - encompassing a logo, stationery suite, and a presentation template that exemplified our studio's design philosophy. The resulting graphic language is not just a superficial aesthetic, but a narrative that communicates New Ratio's creative DNA.",
+
+          "Design Strategy: Materiality: After extensive research and tactile experimentation, we elected to utilize a heavyweight, matte paper stock for our stationery, imparting a subtle sophistication and premium feel. This material choice speaks to our studio's dedication to quality and our design's grounding in sensory experience.",
+
+          "Format: Adhering to the traditional 5x9 cm business card format, we ensured a seamless fit within the industry standards while leaving room for creative interpretation.",
+
+          "Graphic Language: Our design narrative employs a minimalist yet bold use of geometric shapes and a restrained color palette dominated by blue hues, symbolizing trust, dependability, and intellectual depth. This consistent use of form and color across our branding elements encapsulates our studio's identity.",
+
+          "Seriality: Each piece of our stationery suite incorporates a unique element that represents the individuality of our team members, while maintaining a cohesive look. This is reflected in subtle variations of the graphic elements and personalized contact information.",
+
+          "Personalization: The office stationery carries the requisite personal and studio details, including names, personal and office phone numbers, physical address, and a digital touchpoint through the studio's website URL. It ensures our branding not only captures attention but serves practical communication needs.",
+
+          "In the following semester, our task was to broaden our scope by applying our graphic language to package a hypothetical product. This would demonstrate New Ratio's capacity to deliver an end-to-end design solution, showcasing our versatility and comprehensive service offering.",
+
+          "The design output includes: Letterheads that convey professionalism with a creative edge, ideal for official correspondence. Envelopes that stand out in any pile of mail, a testament to our studio's distinct character. Business cards that serve as a tangible extension of our brand, designed to make a memorable first impression.",
+
+          "In essence, New Ratio is positioned as a beacon of innovative design, not just by the services we offer, but through the very essence of our visual language. Our branding is a testament to our ability to synthesize complex ideas into designs that speak volumes, resonating with a diverse clientele.",
+
+          "Stationary showcase - Post-it Notepads: Custom notepads featuring minimalist design elements that reflect the studio’s brand identity. Official Letterhead: A crisp letterhead design with front simplicity for clear communication, and a branded back for a visual statement. Envelopes: Two styles of envelopes, one for everyday mail with the studio's signature blue, and a premium version for special dispatches. Price Tags: Informative and brand-aligned tags that blend seamlessly with the product design and studio aesthetics. Notebook: A functional design piece that doubles as a branding tool with covers that echo the \"New Ratio\" design language. Business Cards: Dual-style business cards that balance individual personalization with the unified studio brand.",
+
+          "Each item is thoughtfully crafted, integrating the studio's blue color palette, geometric motifs, and consistent typography to maintain a cohesive brand experience."
+        ]
+      }
+    },
+    "images": [""],
+    "links": []
+  },
+  {
+    "id": 9,
+    "name": "Time Out - Replicated Articles",
+    "type": "pagination",
+    "min-description": "For an advanced Adobe InDesign course, I replicated two extensive articles from a chosen magazine, demonstrating meticulous mastery in InDesign and Photoshop techniques.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Time Out - Replicated Articles",
+    "description": "replicated two extensive articles from a chosen magazine",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": "In my advanced Adobe InDesign course, I undertook a challenging project to replicate two substantial articles from a selected magazine. This task showcased not just my precision in InDesign layout design but also my adeptness with Photoshop for image manipulation. This work required a keen eye for detail and a strong grasp of design principles to ensure a faithful recreation of the original articles. Accompanying this project is a link to the original folder, which includes the .indd file and all linked elements, ensuring a comprehensive view of the workflow. Additionally, a link to the full PDF is provided, which displays various replicated articles from that magazine, further illustrating the range and depth of my technical skills in digital design tools."
+      }
+    },
+    "images": [""],
+    "links": [
+      "https://3bb8de53-8ba0-4c1d-a257-6ce113afdd0b.filesusr.com/archives/a191f3_686c6f48ad6849d0bc392a16dbcafab7.zip?dn=indesign%20final%20magazin%20Folder.zip",
+
+      "https://3bb8de53-8ba0-4c1d-a257-6ce113afdd0b.filesusr.com/ugd/a191f3_21e1e30db2db44bc91b28d4f16e41fa0.pdf"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Zahav Med Spa Facial Menu",
+    "type": "commercial",
+    "min-description": "Designed Zahav Spa's facial menu with warm hues and elegant type, merging serenity with luxury and spotlighting exclusive Scottsdale offerings.",
+    "logo": "/images/your-inal/yourinal-logo.png",
+    "title": "Zahav Med Spa Facial Menu",
+    "description": "Designed Zahav Spa's facial menu with warm hues and elegant type, merging serenity with luxury and spotlighting exclusive Scottsdale offerings.",
+    "body": {
+      "p-1": {
+        "title": "",
+        "body": ""
+      }
+    },
+    "images": [],
+    "links": []
+  }
+]
